@@ -96,13 +96,16 @@
 .mapOne{
 	display: block;
     left: 0;
-    margin: 10px 0 0;
+    margin: 100px 0 0;
     position: absolute;
     width:100%;
     height:290px;
 }
 .mapOneLink{
-	margin-top: -6px;
+	display: block;
+    float: left;
+    margin-top: 69px;
+    opacity: 0.7;
     position: absolute;
     z-index: 50;
 		a{
@@ -112,7 +115,7 @@
 }
 
 .cuponDescriptionOne{
-	margin-top: 299px;
+	margin-top: 375px;
 	width:100%;
 	background-color:$green;
 	color:#fff;
@@ -139,4 +142,54 @@
     right: -100%;
     position: absolute;
     width: 100%;
+}
+
+
+
+.byeCupon{
+
+    img {
+	    bottom: -91px;
+	    height: 90px;
+	    position: absolute;
+	    right: 0;
+	    z-index: 10;
+	}
+
+	.cuponDescriptionSingle:before {
+	    border-bottom: 0 solid #16A085;
+	    border-left: 30px solid #EAEDEE;
+	    content: "";
+	    height: 0;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 101px;
+	}
+	.cuponDescriptionSingle:after {
+	    border-right: 104px solid rgba(0, 0, 0, 0);
+	    border-top: 91px solid #16A085;
+	    bottom: -89px;
+	    content: "";
+	    display: inline-block;
+	    height: 0;
+	    left: 0;
+	    margin-top: 105px;
+	    position: relative;
+	    width: 438px;
+	}
+	.cuponDescriptionSingle {
+	    background: none repeat scroll 0 0 #16A085;
+	    -webkit-border-top-right-radius: 15px;
+	    -moz-border-radius-topright: 15px;
+	    border-top-right-radius: 15px;
+	    display: inline-block;
+	    height: 234px;
+	    margin: 0;
+	    padding-bottom: 0;
+	    padding-top: 1px;
+	    position: relative;
+	    width: 542px;
+	    z-index: 20;
+	}
 }
