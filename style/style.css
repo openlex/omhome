@@ -761,7 +761,7 @@ label.css-label {
 
 /* line 8, ../sass/cupon.scss */
 .cuponImgOne {
-  width: 642px;
+  width: 643px;
   height: 335px;
   overflow: hidden;
   position: relative;
@@ -782,57 +782,126 @@ label.css-label {
 }
 /* line 27, ../sass/cupon.scss */
 .cuponDetailsOne ul {
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-top: 20px;
 }
-/* line 30, ../sass/cupon.scss */
+/* line 31, ../sass/cupon.scss */
 .cuponDetailsOne ul li:nth-child(1) {
-  font-size: 2.5em;
+  font-size: 3em;
   color: #16a085;
   font-weight: bold;
 }
-/* line 35, ../sass/cupon.scss */
+/* line 36, ../sass/cupon.scss */
 .cuponDetailsOne ul li {
   list-style: none;
   margin-bottom: 20px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
-/* line 40, ../sass/cupon.scss */
+/* line 41, ../sass/cupon.scss */
 .cuponDetailsOne ul li .ico {
   font-size: 1.8em;
   color: #16a085;
   vertical-align: middle;
   margin-right: 5px;
 }
-/* line 49, ../sass/cupon.scss */
+/* line 50, ../sass/cupon.scss */
 .cuponDetailsOne button {
   width: 100%;
   border: none;
-  height: 55px;
   position: absolute;
-  bottom: 17px;
+  bottom: 8px;
   right: 0;
 }
 /* line 57, ../sass/cupon.scss */
 .cuponDetailsOne button div {
   display: inline-block;
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 1.8em;
   color: #fff;
   float: left;
   height: 47px;
   padding-top: 16px;
+  position: absolute;
+  bottom: 0;
 }
-/* line 67, ../sass/cupon.scss */
+/* line 69, ../sass/cupon.scss */
 .cuponDetailsOne button .buy {
   width: 60%;
   background-color: #16a085;
+  left: 0;
 }
-/* line 72, ../sass/cupon.scss */
+/* line 75, ../sass/cupon.scss */
 .cuponDetailsOne button .price {
-  width: 39%;
+  right: 0;
+  width: 40%;
+  background-color: #107460;
+}
+/* line 80, ../sass/cupon.scss */
+.cuponDetailsOne button .price .ico {
+  margin: 0 0 0 10px;
+  vertical-align: middle;
+}
+/* line 88, ../sass/cupon.scss */
+.cuponDetailsOne button:hover > .buy {
   background-color: #ca4a4a;
 }
-/* line 79, ../sass/cupon.scss */
-.cuponDetailsOne button:hover {
-  border: solid 10px #ca4a4a;
+/* line 91, ../sass/cupon.scss */
+.cuponDetailsOne button:hover > .price {
+  background-color: #bd4a47;
+}
+
+/* line 96, ../sass/cupon.scss */
+.mapOne {
+  display: block;
+  left: 0;
+  margin: 10px 0 0;
+  position: absolute;
+  width: 100%;
+  height: 290px;
+}
+
+/* line 104, ../sass/cupon.scss */
+.mapOneLink {
+  margin-top: -6px;
+  position: absolute;
+  z-index: 50;
+}
+/* line 108, ../sass/cupon.scss */
+.mapOneLink a {
+  color: #363636;
+  text-decoration: none;
+}
+
+/* line 114, ../sass/cupon.scss */
+.cuponDescriptionOne {
+  margin-top: 299px;
+  width: 100%;
+  background-color: #16a085;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  position: relative;
+}
+
+/* line 125, ../sass/cupon.scss */
+.cuponDescriptionOne:before {
+  background-color: #16A085;
+  bottom: 0;
+  content: " ";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 134, ../sass/cupon.scss */
+.cuponDescriptionOne:after {
+  background-color: #16A085;
+  bottom: 0;
+  content: " ";
+  height: 100%;
+  right: -100%;
+  position: absolute;
+  width: 100%;
 }

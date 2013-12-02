@@ -6,7 +6,7 @@
 }
 
 .cuponImgOne{
-	width: 642px;
+	width: 643px;
 	height: 335px;
 	overflow: hidden;
 	position: relative;
@@ -25,17 +25,18 @@
 	position: relative;
 
 		ul{
-			padding-left: 10px;
+			padding-left: 30px;
+   			padding-top: 20px;
 
 			li:nth-child(1){
-				font-size:2.5em;
+				font-size:3em;
 				color: $green;
 				font-weight: bold;
 			}
 			li{
 				list-style: none;
 				margin-bottom: 20px;
-				font-size: 1.3em;
+				font-size: 1.1em;
 
 				.ico{
 					font-size: 1.8em;
@@ -49,34 +50,93 @@
 		button{
 			width:100%;
 			border: none;
-			height: 55px;
 			position: absolute;
-			bottom: 17px;
+			bottom: 8px;
 			right: 0;
 
 			div{
 				display: inline-block;
 				vertical-align: middle;
-				font-size: 2em;
+				font-size: 1.8em;
 				color: #fff;
 				float: left;
 				height: 47px;
     			padding-top: 16px;
+    			position:absolute;
+    			bottom:0;
 			}
 
 			.buy{
 				width: 60%;
 				background-color: $green;
+				left:0;
 			}
 
 			.price{
-				width: 39%;
-				background-color:$red; 
+				right:0;
+				width: 40%;
+				background-color:$selectGreen; 
+
+				.ico{
+					margin:0 0 0 10px;
+					vertical-align: middle;
+				}
 			}
 
 		}
 
-		button:hover{
-			border: solid 10px $red;
+		button:hover>.buy{
+			background-color: $red;
 		}
+		button:hover>.price{
+			background-color: #bd4a47;
+		}
+}
+
+.mapOne{
+	display: block;
+    left: 0;
+    margin: 10px 0 0;
+    position: absolute;
+    width:100%;
+    height:290px;
+}
+.mapOneLink{
+	margin-top: -6px;
+    position: absolute;
+    z-index: 50;
+		a{
+			color:$grey;
+			text-decoration: none;
+		}
+}
+
+.cuponDescriptionOne{
+	margin-top: 299px;
+	width:100%;
+	background-color:$green;
+	color:#fff;
+	padding: 40px 0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	position: relative;
+}
+
+.cuponDescriptionOne:before{
+	background-color: #16A085;
+    bottom: 0;
+    content: " ";
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    width: 100%;
+}
+.cuponDescriptionOne:after{
+	background-color: #16A085;
+    bottom: 0;
+    content: " ";
+    height: 100%;
+    right: -100%;
+    position: absolute;
+    width: 100%;
 }
