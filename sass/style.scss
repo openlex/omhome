@@ -1,0 +1,394 @@
+
+$bgColor: #eaedee;
+$red: #ca4a4a;
+$green: #16a085;
+$selectGreen: #107460;
+$grey: #363636;
+
+@mixin border-radius($r1) {
+  -webkit-border-radius: $r1;
+     -moz-border-radius: $r1;
+      -ms-border-radius: $r1; 
+       -o-border-radius: $r1; 
+          border-radius: $r1;
+}
+
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media all and (max-width: 1218px) {
+
+	.menuLine {
+	    min-width: none;
+	}
+
+	.headerContent{
+		position:static !important;
+
+		.logo img{
+	    	margin-left: 15px;
+	    }
+	}
+}
+
+@media all and (max-width: 900px) {
+	.headerContent{
+
+		.logo img{
+	    	margin: 30px 0 0 15px;
+	    	width:100px;
+	    }
+	}
+}
+
+@media all and (max-width: 748px) {
+	.headerContent{
+
+		.chooseCity {
+    		margin-top: 24px;
+    	}
+
+		.headerMenu{
+			float: none;
+			margin-top:5px;
+
+			ul{
+				display: inline;
+			    float: none;
+			    left: 0;
+			    position: none;
+			    padding: 0;
+			}
+		}
+
+		.logo img{
+	    	margin: 10px 0 0 15px;
+	    	width:100px;
+	    }
+	}
+}
+
+@media all and (max-width: 508px) {
+	header{
+		height:156px !important;
+	}
+	.headerMenu li {
+	    float: none !important;
+	    
+	}
+}
+
+
+[class^="ico"], [class*=" ico"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+html, body {
+  font-family: 'Verdana',sans-serif;
+  font-size: 0.883em;
+  background-color: $bgColor;
+  color:$grey;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: $grey;
+    margin-top: 30px;
+}
+
+@-moz-document url-prefix() { 
+	  html, body {
+	  overflow-x: none;
+	}
+}
+
+.headerContent{
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+}
+
+header{
+	background-color: #363636;
+	height: 100px;
+	padding: 10px 0 5px;
+	color: #fff;
+	min-width: 1200px;
+
+		.header_ico{
+			color: $green;
+		    font-size: 1.6em;
+		    line-height: 1.7;
+		    margin-right: 7px;
+		    vertical-align: middle;
+		}
+
+		.menuItem{
+			margin:0;
+		}
+
+		.header_ico:hover, .header_ico:active, {
+			color: #fff;
+
+		}
+
+		.logo{
+		float: left;
+		}
+
+		.chooseCity, {
+			display: inline-block;
+			margin-top: 45px;
+			margin-left: 35px;
+			position: relative;
+
+				div{
+					display:inline-block;
+				}
+
+				img{
+				    left: -13px;
+				    position: absolute;
+				    top: 4px;
+				}
+
+				span{
+					    bottom: 1px;
+					    float: left;
+					    left: -18px;
+					    position: absolute;
+					    width: 15px;
+				} 
+		}
+}
+
+.selectCity{
+	overflow: hidden;
+	width: 125px;
+	float: left;
+	padding-left:0px;
+
+		select{
+		 	border-radius: 0;
+		    background: $grey;
+		    height: 30px;
+		    padding: 5px;
+		    border: none;
+		    font-size: 1em;
+		    line-height: 1;
+		    -webkit-appearance: none;
+		    width: 155px;
+		    color: #fff;
+		}
+}
+
+menu ul, .headerMenu ul {
+	list-style-type:none;
+ }
+
+.headerMenu{
+	float: right;
+	margin-top: 45px;
+		
+		ul {
+		    display: inline;
+		    float: right;
+		    position: absolute;
+		    right: 0;
+		}
+
+		li {
+			cursor: pointer;
+		    float: left;
+		    height: 30px;
+		    overflow: hidden;
+		    padding: 0 1em;
+		}
+
+		li:hover img{
+		     margin: -17px 5px 0 0;
+		}
+
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		a:hover{
+			//text-decoration: underline;
+			color: $green;
+		}
+
+		a:hover span{
+			color: #fff;
+		}
+
+		img {
+		    float: left;
+		    //height: 17px;
+		    margin: 2px 5px 0 0;
+		}
+}
+
+.menuLine{
+	background-color: $green;
+	height: 50px;
+	padding: 0;
+
+		menu{
+		margin: 0 auto;
+		max-width: 1200px;
+		padding: 0;
+
+		.leftArrow, .rightArrow{
+			cursor:pointer;
+		}
+
+			.menuSlider{
+			    height: 35px;
+			    margin-top: -12px;
+			    padding: 12px 0 0;
+			    overflow:hidden;
+			    display:none;
+			}
+
+			
+			ul{
+			    display: table-row;
+			    padding-left:0;
+			}
+
+			li{
+		 		width: auto; /* чтобы поведение было аналогичным ячейки таблицы */
+				display: table-cell; /* эмуляция ячейки таблицы */
+				text-align: center;	
+				height: 50px; /* высота пункта */
+				padding-left: 2px; /* визуальная граница между пунктами меню */
+				vertical-align: bottom; /* это нужно для случаев, когда в пункте меню текста больше чем на одну строку */
+			}
+
+			li:hover, li:active{
+				background-color: #107460;
+			}	
+
+			li:first-child {
+				padding: 0; /* у первого элемента убираем отступ чтобы четко прилег к левой границе */
+			}
+			a {
+				width: 1000px; /* вот это заставляет наши псевдоячейки растянуться должным образом */
+				height: 50px;
+				display: table-cell; /* без этого тоже никак */
+				vertical-align: middle; /* вертикальное выравнивание текста */
+				text-decoration:none;
+				color:#fff;
+			}
+
+		}
+}
+
+
+.container {
+    padding-left: 12px;
+    //position:relative;
+
+    .content{
+		max-width: 1214px;
+		margin: 0px auto;
+		padding: 15px 0 15px 0;
+	}
+}
+
+	.overlay{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		background-color:#000;
+		opacity:0;
+		display:none;
+	}
+
+	.modal{
+		left: 50%;
+	    margin-left: -339px;
+	    position: fixed;
+	    z-index: 20;
+
+		.registationBlock, .autorizationBlock{
+			display:none;
+		}
+		
+	}
+
+input[type=checkbox].css-checkbox {
+				display:none;
+			}
+
+			input[type=checkbox].css-checkbox + label.css-label {
+				padding-left:28px;
+				height:23px; 
+				display:inline-block;
+				line-height:23px;
+				background-repeat:no-repeat;
+				background-position: 0 0;
+				font-size:1em;
+				vertical-align:middle;
+				cursor:pointer;
+
+			}
+
+			input[type=checkbox].css-checkbox:checked + label.css-label {
+				background-position: 0 -23px;
+			}
+			label.css-label {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_8730140bb84c8c387fae0d9e5d74315d.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+
+@import 'main-content';
+@import 'enter';
+@import 'cupon';

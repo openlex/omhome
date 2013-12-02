@@ -1,0 +1,149 @@
+.search {
+	margin: 0 0 15px 0;
+
+		.search_field{
+		width: 69.1%;
+		height: 30px;
+		border: none;
+		padding: 1px 7px;
+		}
+
+		.search_field_submit{
+			margin: 0 0 -11px -4px;
+			height: 32px;
+		
+		}
+}
+
+.green{
+	background-color: $green;
+
+	.slideInfo{
+		background-color: rgba(8,157,134,0.75);
+	}
+}
+.red{
+	background-color: $red;
+
+	.slideInfo{
+		background-color: rgba(202,74,74,0.75);
+	}
+}
+
+.long{
+	width: 592px !important;
+
+	img{
+		width: 100%;
+		margin-top: -35px;
+	}
+}
+
+.short{
+	img{
+		height: 218px;
+	}
+}
+
+
+.cuponList{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+
+	.cupon{
+		display: inline-block;
+	    margin: 4px 12px 10px 0;
+	    overflow: hidden;
+	    position: relative;
+	    width: 288px;
+		-webkit-border-radius: 2px;
+ 		border-radius: 2px;
+
+ 		a{
+	 		display: block;
+		    height: 100%;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 100%;
+		    z-index: 5;
+		}
+	}
+
+	.cuponImg{
+		height: 218px;
+		overflow:hidden;
+		position: relative;
+	}
+
+	.cuponDescription{
+		padding: 10px 10px;
+		height: 55px;
+		color: #fff;
+		vertical-align: middle;
+		display: table-cell;
+
+	}
+
+	.cuponBlock_price{
+		color: #fff;
+		padding: 10px;
+		background-color: rgba(255,255,255,0.2);
+
+			div{
+				display: inline;
+				font-size: 1.6em;
+			}
+
+			.percent{
+				font-weight: bold;
+			}
+			.count{
+				float: right;
+			}
+	}
+
+	.slideInfo{
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+		height: 30px;
+		width: 100%;
+		padding: 10px;
+		z-index: 1;
+
+		img{
+			float: left;
+		}
+
+		div{
+			color: #fff;
+			display: inline-block;
+		    margin: 8px 0px 0 10px;
+		}
+
+		.cuponSelled{
+			float: right;
+			margin-right: 20px;
+		}
+
+		.ico {
+			color: #FFFFFF;
+		    float: left;
+		    font-size: 2.2em;
+		    margin-top: 1px;
+		}
+
+	}
+}
+/*
+.green{
+	.cuponDescription{
+	background-color: $green;	
+	}
+	
+}
+.magenta{
+	background-color: $red;
+}*/

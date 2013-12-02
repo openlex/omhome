@@ -1,0 +1,82 @@
+.cuponTitleOne{
+	font-size:2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.cuponImgOne{
+	width: 642px;
+	height: 335px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin-right: 17px;
+
+		img{
+			width: 100%;
+		}
+}
+
+.cuponDetailsOne{
+	width: 542px;
+	height: 335px;
+	display: inline-block;
+	position: relative;
+
+		ul{
+			padding-left: 10px;
+
+			li:nth-child(1){
+				font-size:2.5em;
+				color: $green;
+				font-weight: bold;
+			}
+			li{
+				list-style: none;
+				margin-bottom: 20px;
+				font-size: 1.3em;
+
+				.ico{
+					font-size: 1.8em;
+					color: $green;
+					vertical-align: middle;
+					margin-right: 5px;	
+				}
+			}
+		}
+
+		button{
+			width:100%;
+			border: none;
+			height: 55px;
+			position: absolute;
+			bottom: 17px;
+			right: 0;
+
+			div{
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 2em;
+				color: #fff;
+				float: left;
+				height: 47px;
+    			padding-top: 16px;
+			}
+
+			.buy{
+				width: 60%;
+				background-color: $green;
+			}
+
+			.price{
+				width: 39%;
+				background-color:$red; 
+			}
+
+		}
+
+		button:hover{
+			border: solid 10px $red;
+		}
+}
