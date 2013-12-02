@@ -1,34 +1,12 @@
 /*
-Syntax error: Undefined variable: "$green".
-        on line 33 of D:/PROJECTS/omhome/sass/cupon.scss
+Syntax error: Undefined variable: "$selectGreen".
+        on line 32 of D:/PROJECTS/omhome/sass/cupon.scss
 
 Backtrace:
-D:/PROJECTS/omhome/sass/cupon.scss:33
+D:/PROJECTS/omhome/sass/cupon.scss:32
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
-org/jruby/RubyKernel.java:2096:in `send'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2336:in `collect'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:316:in `visit_rule'
-org/jruby/RubyKernel.java:2096:in `send'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2336:in `collect'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:316:in `visit_rule'
 org/jruby/RubyKernel.java:2096:in `send'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
@@ -98,4 +76,4 @@ C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$green\".\A         on line 33 of D:/PROJECTS/omhome/sass/cupon.scss"; }
+  content: "Syntax error: Undefined variable: \"$selectGreen\".\A         on line 32 of D:/PROJECTS/omhome/sass/cupon.scss"; }

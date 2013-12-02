@@ -1,5 +1,5 @@
 .cuponTitleOne{
-	font-size:2em;
+	font-size:1.8em;
 	font-weight: bold;
 	margin-bottom: 20px;
 	display: block;
@@ -11,122 +11,63 @@
 	overflow: hidden;
 	position: relative;
 	float: left;
-	margin-right: 17px;
+	margin-right: 7px;
 
 		img{
 			width: 100%;
 		}
 }
 
-.cuponDetailsOne{
-	width: 542px;
-	height: 335px;
-	display: inline-block;
-	position: relative;
-
-		ul{
-			padding-left: 30px;
-   			padding-top: 20px;
-
-			li:nth-child(1){
-				font-size:3em;
-				color: $green;
-				font-weight: bold;
-			}
-			li{
-				list-style: none;
-				margin-bottom: 20px;
-				font-size: 1.1em;
-
-				.ico{
-					font-size: 1.8em;
-					color: $green;
-					vertical-align: middle;
-					margin-right: 5px;	
-				}
-			}
-		}
-
-		button{
-			width:100%;
-			border: none;
-			position: absolute;
-			bottom: 8px;
-			right: 0;
-
-			div{
-				display: inline-block;
-				vertical-align: middle;
-				font-size: 1.8em;
-				color: #fff;
-				float: left;
-				height: 47px;
-    			padding-top: 16px;
-    			position:absolute;
-    			bottom:0;
-			}
-
-			.buy{
-				width: 60%;
-				background-color: $green;
-				left:0;
-			}
-
-			.price{
-				right:0;
-				width: 40%;
-				background-color:$selectGreen; 
-
-				.ico{
-					margin:0 0 0 10px;
-					vertical-align: middle;
-				}
-			}
-
-		}
-
-		button:hover>.buy{
-			background-color: $red;
-		}
-		button:hover>.price{
-			background-color: #bd4a47;
-		}
-}
 
 .mapOne{
 	display: block;
     left: 0;
-    margin: 100px 0 0;
+    margin: -47px 0 0;
     position: absolute;
     width:100%;
     height:290px;
 }
+
+.mapOne:after{
+		background-color: $selectGreen;
+		opacity: 0.6;
+	    bottom: -7px;
+	    content: " ";
+	    height: 7px;
+	    left: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+
 .mapOneLink{
 	display: block;
     float: left;
-    margin-top: 69px;
+    margin-top: 200px;
     opacity: 0.7;
     position: absolute;
     z-index: 50;
+    padding: 5px;
+    margin-left: 50px;
 		a{
-			color:$grey;
+			color:#fff;
+			background-color: $green;
 			text-decoration: none;
 		}
 }
 
 .cuponDescriptionOne{
-	margin-top: 375px;
+	margin-top: 227px;
 	width:100%;
-	background-color:$green;
+	background-color:$lightGreen;
 	color:#fff;
-	padding: 40px 0;
+	padding: 35px 0;
 	font-size: 1.2em;
 	line-height: 1.6em;
 	position: relative;
 }
 
 .cuponDescriptionOne:before{
-	background-color: #16A085;
+	background-color: $lightGreen;
     bottom: 0;
     content: " ";
     height: 100%;
@@ -135,7 +76,7 @@
     width: 100%;
 }
 .cuponDescriptionOne:after{
-	background-color: #16A085;
+	background-color: $lightGreen;
     bottom: 0;
     content: " ";
     height: 100%;
@@ -148,6 +89,77 @@
 
 .byeCupon{
 
+	h2{
+		font-size: 1em;
+	}
+
+	.persent{
+		color: #fff;
+		font-size: 3.8em;
+		float: right;
+		font-weight: bold;
+		margin: 7px;
+	}
+
+	button{
+		width: 100%;
+		height: 66px;
+		background-color: $red;
+		border: none;
+		font-size: 1.8em;
+		color: #fff;
+		position: relative;
+		cursor: pointer;
+
+		.ico{
+			margin: 0 10px;
+			color: #873533;
+			vertical-align: middle;
+		}
+	}
+
+	button:hover{
+		background-color: #b64744;
+	}
+
+	button:hover .ico{
+		font-size: 1.5em;
+		margin: 0 4px;
+		color: #fff;
+	}
+
+	button:after{
+		background-color: $selectGreen;
+		opacity: 0.6;
+	    bottom: -7px;
+	    content: " ";
+	    height: 7px;
+	    left: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+
+	ul{
+		padding-left: 30px;
+		padding-top: 30px;
+		position: inherit;
+		z-index: 15;
+
+		li{
+			list-style: none;
+			margin-bottom: 9px;
+			font-size: 1.3em;
+			color: #fff;
+
+			.ico{
+				font-size: 1.8em;
+				vertical-align: middle;
+				margin-right: 5px;	
+			}
+		}
+	}
+
+
     img {
 	    bottom: -91px;
 	    height: 90px;
@@ -157,8 +169,8 @@
 	}
 
 	.cuponDescriptionSingle:before {
-	    border-bottom: 0 solid #16A085;
-	    border-left: 30px solid #EAEDEE;
+	    border-bottom: 0 solid $lightGreen;
+	    border-left: 30px solid $lightGreen;
 	    content: "";
 	    height: 0;
 	    left: 0;
@@ -168,18 +180,17 @@
 	}
 	.cuponDescriptionSingle:after {
 	    border-right: 104px solid rgba(0, 0, 0, 0);
-	    border-top: 91px solid #16A085;
-	    bottom: -89px;
+	    border-top: 91px solid $lightGreen;
+	    bottom: 51px;
 	    content: "";
 	    display: inline-block;
 	    height: 0;
 	    left: 0;
-	    margin-top: 105px;
 	    position: relative;
 	    width: 438px;
 	}
 	.cuponDescriptionSingle {
-	    background: none repeat scroll 0 0 #16A085;
+	    background: none repeat scroll 0 0 $lightGreen;
 	    -webkit-border-top-right-radius: 15px;
 	    -moz-border-radius-topright: 15px;
 	    border-top-right-radius: 15px;
@@ -193,3 +204,47 @@
 	    z-index: 20;
 	}
 }
+
+.commentsBlock{
+	margin-top: 15px;
+	margin-right: 50px;
+	float: left;
+	width: 643px;
+	min-height: 400px;
+
+	.comment{
+		width: 100%;
+		background-color: #fff;
+		margin: 0 0 15px 0;
+	}
+
+	.question{
+		padding: 15px 15px 10px 15px;
+	}
+
+	.answer{
+		padding: 10px 15px 15px 15px;
+		color: $green;
+	}
+
+}
+
+.termsBlock{
+	float: left;
+	width: 489px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+	li{
+		margin-bottom: 5px;
+		list-style: none;
+	}
+}
+
+.commentsBlock span:nth-child(1), .termsBlock span:nth-child(1){
+	font-size: 1.8em;
+	color: $green;
+	margin-bottom: 15px;
+	display: block;
+}
+

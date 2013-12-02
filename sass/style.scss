@@ -2,8 +2,10 @@
 $bgColor: #eaedee;
 $red: #ca4a4a;
 $green: #16a085;
+$lightGreen: #1abc9c;
 $selectGreen: #107460;
 $grey: #363636;
+
 
 @mixin border-radius($r1) {
   -webkit-border-radius: $r1;
@@ -113,23 +115,46 @@ html, body {
   color:$grey;
 }
 
+html, body, .wrapper {
+height: 100%;
+margin: 0px;
+}
 
-html {
-    position: relative;
-    min-height: 100%;
+body > .wrapper {
+height: auto;
+min-height: 100%;
 }
-body {
-    margin: 0 0 100px; /* bottom = footer height */
-}
+
+
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    background-color: $grey;
-    margin-top: 30px;
+  	position: relative;
+	margin-top: -150px; /* отрицательное значение высоты футера */
+	height: 150px;
+	clear:both;
+	background-color:$grey;
+} 
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
 }
+.clearfix {
+display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+height: 1%;
+}
+.clearfix {
+display: block;
+}
+/* End hide from IE-mac */
+
+
+.wrapper{height: auto; min-height: 100%;}
 
 @-moz-document url-prefix() { 
 	  html, body {
@@ -324,6 +349,7 @@ menu ul, .headerMenu ul {
 
 .container {
     padding-left: 12px;
+    padding-bottom: 150px;
     //position:relative;
 
     .content{
