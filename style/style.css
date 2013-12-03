@@ -7,38 +7,38 @@
 }
 
 @media all and (max-width: 1218px) {
-  /* line 33, ../sass/style.scss */
+  /* line 31, ../sass/style.scss */
   .menuLine {
     min-width: none;
   }
 
-  /* line 37, ../sass/style.scss */
+  /* line 35, ../sass/style.scss */
   .headerContent {
     position: static !important;
   }
-  /* line 40, ../sass/style.scss */
+  /* line 38, ../sass/style.scss */
   .headerContent .logo img {
     margin-left: 15px;
   }
 }
 @media all and (max-width: 900px) {
-  /* line 49, ../sass/style.scss */
+  /* line 47, ../sass/style.scss */
   .headerContent .logo img {
     margin: 30px 0 0 15px;
     width: 100px;
   }
 }
 @media all and (max-width: 748px) {
-  /* line 59, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .headerContent .chooseCity {
     margin-top: 24px;
   }
-  /* line 63, ../sass/style.scss */
+  /* line 61, ../sass/style.scss */
   .headerContent .headerMenu {
     float: none;
     margin-top: 5px;
   }
-  /* line 67, ../sass/style.scss */
+  /* line 65, ../sass/style.scss */
   .headerContent .headerMenu ul {
     display: inline;
     float: none;
@@ -46,24 +46,24 @@
     position: none;
     padding: 0;
   }
-  /* line 76, ../sass/style.scss */
+  /* line 74, ../sass/style.scss */
   .headerContent .logo img {
     margin: 10px 0 0 15px;
     width: 100px;
   }
 }
 @media all and (max-width: 508px) {
-  /* line 84, ../sass/style.scss */
+  /* line 82, ../sass/style.scss */
   header {
     height: 156px !important;
   }
 
-  /* line 87, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   .headerMenu li {
     float: none !important;
   }
 }
-/* line 94, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 [class^="ico"], [class*=" ico"] {
   font-family: 'icomoon';
   speak: none;
@@ -76,13 +76,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 html, body {
   font-family: 'Verdana',sans-serif;
   font-size: 0.883em;
@@ -90,19 +90,19 @@ html, body {
   color: #363636;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 html, body, .wrapper {
   height: 100%;
   margin: 0px;
 }
 
-/* line 123, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 body > .wrapper {
   height: auto;
   min-height: 100%;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 footer {
   position: relative;
   margin-top: -150px;
@@ -112,7 +112,7 @@ footer {
   background-color: #363636;
 }
 
-/* line 137, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -121,44 +121,44 @@ footer {
   visibility: hidden;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .clearfix {
   display: inline-block;
 }
 
 /* Hides from IE-mac \*/
-/* line 148, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .clearfix {
   display: block;
 }
 
 /* End hide from IE-mac */
-/* line 157, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .wrapper {
   height: auto;
   min-height: 100%;
 }
 
 @-moz-document url-prefix() {
-  /* line 160, ../sass/style.scss */
+  /* line 156, ../sass/style.scss */
   html, body {
     overflow-x: none;
   }
 }
 
-/* line 165, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .headerContent {
   margin: 0 auto;
   width: 1200px;
   position: relative;
 }
 
-/* line 171, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 header {
   background-color: #363636;
   height: 100px;
@@ -166,7 +166,7 @@ header {
   color: #fff;
   min-width: 1200px;
 }
-/* line 178, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 header .header_ico {
   color: #16a085;
   font-size: 1.6em;
@@ -174,36 +174,36 @@ header .header_ico {
   margin-right: 7px;
   vertical-align: middle;
 }
-/* line 186, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 header .menuItem {
   margin: 0;
 }
-/* line 190, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 header .header_ico:hover, header .header_ico:active {
   color: #fff;
 }
-/* line 195, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 header .logo {
   float: left;
 }
-/* line 199, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 header .chooseCity {
   display: inline-block;
   margin-top: 45px;
   margin-left: 35px;
   position: relative;
 }
-/* line 205, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 header .chooseCity div {
   display: inline-block;
 }
-/* line 209, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 header .chooseCity img {
   left: -13px;
   position: absolute;
   top: 4px;
 }
-/* line 215, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 header .chooseCity span {
   bottom: 1px;
   float: left;
@@ -212,14 +212,14 @@ header .chooseCity span {
   width: 15px;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .selectCity {
   overflow: hidden;
   width: 125px;
   float: left;
   padding-left: 0px;
 }
-/* line 231, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .selectCity select {
   border-radius: 0;
   background: #363636;
@@ -233,24 +233,24 @@ header .chooseCity span {
   color: #fff;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 menu ul, .headerMenu ul {
   list-style-type: none;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .headerMenu {
   float: right;
   margin-top: 45px;
 }
-/* line 253, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .headerMenu ul {
   display: inline;
   float: right;
   position: absolute;
   right: 0;
 }
-/* line 260, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .headerMenu li {
   cursor: pointer;
   float: left;
@@ -258,46 +258,46 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   padding: 0 1em;
 }
-/* line 268, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .headerMenu li:hover img {
   margin: -17px 5px 0 0;
 }
-/* line 272, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .headerMenu a {
   text-decoration: none;
   color: #fff;
 }
-/* line 277, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .headerMenu a:hover {
   color: #16a085;
 }
-/* line 282, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .headerMenu a:hover span {
   color: #fff;
 }
-/* line 286, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .headerMenu img {
   float: left;
   margin: 2px 5px 0 0;
 }
 
-/* line 293, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .menuLine {
   background-color: #16a085;
   height: 50px;
   padding: 0;
 }
-/* line 298, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .menuLine menu {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0;
 }
-/* line 303, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .menuLine menu .leftArrow, .menuLine menu .rightArrow {
   cursor: pointer;
 }
-/* line 307, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .menuLine menu .menuSlider {
   height: 35px;
   margin-top: -12px;
@@ -305,12 +305,12 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   display: none;
 }
-/* line 316, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 .menuLine menu ul {
   display: table-row;
   padding-left: 0;
 }
-/* line 321, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .menuLine menu li {
   width: auto;
   /* чтобы поведение было аналогичным ячейки таблицы */
@@ -324,16 +324,16 @@ menu ul, .headerMenu ul {
   vertical-align: bottom;
   /* это нужно для случаев, когда в пункте меню текста больше чем на одну строку */
 }
-/* line 330, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .menuLine menu li:hover, .menuLine menu li:active {
   background-color: #107460;
 }
-/* line 334, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .menuLine menu li:first-child {
   padding: 0;
   /* у первого элемента убираем отступ чтобы четко прилег к левой границе */
 }
-/* line 337, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .menuLine menu a {
   width: 1000px;
   /* вот это заставляет наши псевдоячейки растянуться должным образом */
@@ -346,19 +346,19 @@ menu ul, .headerMenu ul {
   color: #fff;
 }
 
-/* line 350, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 .container {
   padding-left: 12px;
   padding-bottom: 150px;
 }
-/* line 355, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 .container .content {
   max-width: 1214px;
   margin: 0px auto;
   padding: 15px 0 15px 0;
 }
 
-/* line 362, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -371,24 +371,24 @@ menu ul, .headerMenu ul {
   display: none;
 }
 
-/* line 374, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 .modal {
   left: 50%;
   margin-left: -339px;
   position: fixed;
   z-index: 20;
 }
-/* line 380, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .modal .registationBlock, .modal .autorizationBlock {
   display: none;
 }
 
-/* line 386, ../sass/style.scss */
+/* line 382, ../sass/style.scss */
 input[type=checkbox].css-checkbox, .registationBlock form [type=checkbox].css-checkbox#city {
   display: none;
 }
 
-/* line 390, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city + label.css-label {
   padding-left: 28px;
   height: 23px;
@@ -401,12 +401,12 @@ input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [typ
   cursor: pointer;
 }
 
-/* line 403, ../sass/style.scss */
+/* line 399, ../sass/style.scss */
 input[type=checkbox].css-checkbox:checked + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city:checked + label.css-label {
   background-position: 0 -23px;
 }
 
-/* line 406, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 label.css-label {
   background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_8730140bb84c8c387fae0d9e5d74315d.png);
   -webkit-touch-callout: none;
@@ -809,7 +809,7 @@ label.css-label {
 .mapOne {
   display: block;
   left: 0;
-  margin: -47px 0 0;
+  margin: -41px 0 0;
   position: absolute;
   width: 100%;
   height: 290px;
@@ -847,7 +847,7 @@ label.css-label {
 
 /* line 58, ../sass/cupon.scss */
 .cuponDescriptionOne {
-  margin-top: 227px;
+  margin-top: 231px;
   width: 100%;
   background-color: #1abc9c;
   color: #fff;
@@ -987,7 +987,7 @@ label.css-label {
   -moz-border-radius-topright: 15px;
   border-top-right-radius: 15px;
   display: inline-block;
-  height: 234px;
+  height: 230px;
   margin: 0;
   padding-bottom: 0;
   padding-top: 1px;

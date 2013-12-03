@@ -15,8 +15,6 @@ $grey: #363636;
           border-radius: $r1;
 }
 
-
-
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot');
@@ -86,10 +84,8 @@ $grey: #363636;
 	}
 	.headerMenu li {
 	    float: none !important;
-	    
 	}
 }
-
 
 [class^="ico"], [class*=" ico"] {
 	font-family: 'icomoon';
