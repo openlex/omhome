@@ -425,7 +425,7 @@ label.css-label {
 /* line 4, ../sass/main-content.scss */
 .search .search_field {
   width: 69.1%;
-  height: 30px;
+  height: 32px;
   border: none;
   padding: 1px 7px;
 }
@@ -532,7 +532,7 @@ label.css-label {
   position: absolute;
   bottom: -50px;
   left: 0;
-  height: 30px;
+  height: 50px;
   width: 100%;
   padding: 10px;
   z-index: 1;
@@ -814,70 +814,166 @@ label.css-label {
     display: block !important;
   }
 
-  /* line 28, ../sass/cupon.scss */
+  /* line 27, ../sass/cupon.scss */
+  .buyInfoContainer {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 49%;
+    line-height: 1.95em;
+    height: 240px;
+    overflow: hidden;
+    bottom: 2px;
+  }
+
+  /* line 40, ../sass/cupon.scss */
   .cuponImgOne img {
-    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* line 46, ../sass/cupon.scss */
+  .cuponContainer form {
+    margin-top: 0px;
+  }
+
+  /* line 50, ../sass/cupon.scss */
+  .byeCupon {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  /* line 57, ../sass/cupon.scss */
+  .cuponImgOne {
+    display: inline-block;
+    width: 50%;
+  }
+
+  /* line 61, ../sass/cupon.scss */
+  .cuponContainer .cuponInfoOne:before {
+    background-color: #CA4A4A;
+    content: " ";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  /* line 70, ../sass/cupon.scss */
+  .cuponContainer .cuponInfoOne {
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: right;
+    padding: 25px 30px !important;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 75%;
   }
 }
-/* line 35, ../sass/cupon.scss */
+/* line 83, ../sass/cupon.scss */
 .persent {
   float: left;
   color: #ca4a4a;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   margin-right: 10px;
 }
 
-/* line 43, ../sass/cupon.scss */
+/* line 91, ../sass/cupon.scss */
 .cuponTitleOne {
+  width: 100%;
   float: left;
   clear: right;
   color: #363636;
-  font-size: 1.4em;
+  font-size: 1.6em;
   line-height: 19px;
   font-weight: bold;
   margin: 20px 0 20px 0;
 }
 
-/* line 53, ../sass/cupon.scss */
+/* line 102, ../sass/cupon.scss */
 .leftBlocks {
   width: 58.5%;
   float: left;
 }
 
-/* line 57, ../sass/cupon.scss */
+/* line 106, ../sass/cupon.scss */
 .rightBlocks {
   width: 40%;
   float: right;
 }
 
-/* line 62, ../sass/cupon.scss */
+/* line 111, ../sass/cupon.scss */
 .leftBlocks, .rightBlocks {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-/* line 67, ../sass/cupon.scss */
+/* line 116, ../sass/cupon.scss */
 .cuponDescriptionOne {
   background: #fff;
   clear: left;
   padding: 25px;
+  position: relative;
+  line-height: 1.5em;
+}
+/* line 123, ../sass/cupon.scss */
+.cuponDescriptionOne ul {
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+/* line 127, ../sass/cupon.scss */
+.cuponDescriptionOne ul li {
+  padding: 5px;
+  margin-left: 25px;
 }
 
-/* line 74, ../sass/cupon.scss */
+/* line 134, ../sass/cupon.scss */
+.cuponDescriptionOne:before {
+  position: absolute;
+  content: ' ';
+  background-color: #16a085;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+/* line 144, ../sass/cupon.scss */
 .cuponContainer {
   position: relative;
 }
-/* line 75, ../sass/cupon.scss */
+/* line 145, ../sass/cupon.scss */
 .cuponContainer form {
   margin-top: -5px;
 }
-/* line 79, ../sass/cupon.scss */
+/* line 149, ../sass/cupon.scss */
 .cuponContainer .cuponImgOne {
   overflow: hidden;
   height: 240px;
 }
-/* line 87, ../sass/cupon.scss */
+/* line 153, ../sass/cupon.scss */
+.cuponContainer .cuponImgOne img {
+  width: 100%;
+}
+/* line 159, ../sass/cupon.scss */
+.cuponContainer button:hover > div:nth-child(2) {
+  background-color: #ca4a4a !important;
+}
+/* line 161, ../sass/cupon.scss */
+.cuponContainer button:hover > div:nth-child(2) .ico {
+  color: white;
+}
+/* line 165, ../sass/cupon.scss */
+.cuponContainer button:hover > div:nth-child(1) {
+  border: solid 5px #ca4a4a;
+  border-bottom: none;
+  padding-top: 21px;
+}
+/* line 171, ../sass/cupon.scss */
 .cuponContainer button {
   position: relative;
   width: 100%;
@@ -886,15 +982,15 @@ label.css-label {
   margin-top: -7px;
   cursor: pointer;
 }
-/* line 95, ../sass/cupon.scss */
+/* line 179, ../sass/cupon.scss */
 .cuponContainer button div {
   display: inline-block;
   height: 70px;
-  width: 50%;
+  width: 51%;
   color: white;
   font-size: 1.5em;
 }
-/* line 104, ../sass/cupon.scss */
+/* line 187, ../sass/cupon.scss */
 .cuponContainer button div:nth-child(1) {
   position: absolute;
   left: 0;
@@ -902,7 +998,7 @@ label.css-label {
   background: #16a085;
   padding-top: 26px;
 }
-/* line 112, ../sass/cupon.scss */
+/* line 195, ../sass/cupon.scss */
 .cuponContainer button div:nth-child(2) {
   padding-top: 21px;
   position: absolute;
@@ -910,14 +1006,14 @@ label.css-label {
   bottom: 0;
   background: #107460;
 }
-/* line 120, ../sass/cupon.scss */
+/* line 203, ../sass/cupon.scss */
 .cuponContainer button .ico {
   margin-left: 15px;
   color: #ca4a4a;
   font-size: 1.7em;
   vertical-align: middle;
 }
-/* line 128, ../sass/cupon.scss */
+/* line 211, ../sass/cupon.scss */
 .cuponContainer .cuponInfoOne:before {
   position: absolute;
   content: ' ';
@@ -927,21 +1023,22 @@ label.css-label {
   width: 100%;
   height: 5px;
 }
-/* line 137, ../sass/cupon.scss */
+/* line 220, ../sass/cupon.scss */
 .cuponContainer .cuponInfoOne {
   position: relative;
   background-color: white;
   padding: 25px 35px;
+  margin-top: -2px;
 }
-/* line 142, ../sass/cupon.scss */
+/* line 226, ../sass/cupon.scss */
 .cuponContainer .cuponInfoOne ul {
   list-style: none;
 }
-/* line 144, ../sass/cupon.scss */
+/* line 228, ../sass/cupon.scss */
 .cuponContainer .cuponInfoOne ul li {
   padding: 7px;
 }
-/* line 147, ../sass/cupon.scss */
+/* line 231, ../sass/cupon.scss */
 .cuponContainer .cuponInfoOne ul .ico {
   font-size: 1.7em;
   vertical-align: middle;
@@ -949,12 +1046,68 @@ label.css-label {
   margin-right: 5px;
 }
 
-/* line 158, ../sass/cupon.scss */
-.mapOne {
+/* line 243, ../sass/cupon.scss */
+.mapOneBlock .mapOne {
   height: 330px;
 }
+/* line 246, ../sass/cupon.scss */
+.mapOneBlock a {
+  color: #363636;
+}
 
-/* line 162, ../sass/cupon.scss */
+/* line 255, ../sass/cupon.scss */
+.commentsBlock .commentsBlockTitle {
+  margin-bottom: 5px;
+  color: #16a085;
+  font-size: 1.5em;
+  display: inline-block;
+}
+/* line 262, ../sass/cupon.scss */
+.commentsBlock .writeComment {
+  float: right;
+  display: inline-block;
+  color: #16a085;
+  cursor: pointer;
+}
+/* line 269, ../sass/cupon.scss */
+.commentsBlock .comment {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 15px;
+  position: relative;
+}
+/* line 276, ../sass/cupon.scss */
+.commentsBlock .comment:before {
+  position: absolute;
+  content: ' ';
+  background-color: #16a085;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+/* line 286, ../sass/cupon.scss */
+.commentsBlock .question {
+  margin-bottom: 20px;
+}
+/* line 289, ../sass/cupon.scss */
+.commentsBlock .question .questionTitle {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 296, ../sass/cupon.scss */
+.commentsBlock .answer {
+  color: #16a085;
+}
+/* line 299, ../sass/cupon.scss */
+.commentsBlock .answer .answerTitle {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 307, ../sass/cupon.scss */
 .termsBlock:before {
   position: absolute;
   content: ' ';
@@ -965,22 +1118,23 @@ label.css-label {
   height: 5px;
 }
 
-/* line 171, ../sass/cupon.scss */
+/* line 316, ../sass/cupon.scss */
 .termsBlock {
   position: relative;
+  line-height: 1.5em;
   background-color: #16a085;
   color: white;
   padding: 25px 40px;
 }
-/* line 174, ../sass/cupon.scss */
+/* line 317, ../sass/cupon.scss */
+.termsBlock a {
+  color: white;
+  float: right;
+  display: block;
+}
+/* line 325, ../sass/cupon.scss */
 .termsBlock span {
   font-size: 1.5em;
-}
-/* line 182, ../sass/cupon.scss */
-.termsBlock ul {
-  line-height: 1.5em;
-}
-/* line 185, ../sass/cupon.scss */
-.termsBlock ul li {
-  padding: 5px;
+  display: block;
+  margin-bottom: 10px;
 }

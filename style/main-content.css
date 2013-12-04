@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$green".
-        on line 19 of D:/coupons/sass/main-content.scss
+        on line 19 of D:/PROJECTS/omhome/sass/main-content.scss
 
 Backtrace:
-D:/coupons/sass/main-content.scss:19
+D:/PROJECTS/omhome/sass/main-content.scss:19
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -76,4 +76,4 @@ C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$green\".\A         on line 19 of D:/coupons/sass/main-content.scss"; }
+  content: "Syntax error: Undefined variable: \"$green\".\A         on line 19 of D:/PROJECTS/omhome/sass/main-content.scss"; }
