@@ -100,9 +100,10 @@ html, body, .wrapper {
 body > .wrapper {
   height: auto;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 footer {
   position: relative;
   margin-top: -150px;
@@ -112,7 +113,7 @@ footer {
   background-color: #363636;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -121,44 +122,44 @@ footer {
   visibility: hidden;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .clearfix {
   display: inline-block;
 }
 
 /* Hides from IE-mac \*/
-/* line 144, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .clearfix {
   display: block;
 }
 
 /* End hide from IE-mac */
-/* line 153, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .wrapper {
   height: auto;
   min-height: 100%;
 }
 
 @-moz-document url-prefix() {
-  /* line 156, ../sass/style.scss */
+  /* line 157, ../sass/style.scss */
   html, body {
     overflow-x: none;
   }
 }
 
-/* line 161, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .headerContent {
   margin: 0 auto;
   width: 1200px;
   position: relative;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 header {
   background-color: #363636;
   height: 100px;
@@ -166,7 +167,7 @@ header {
   color: #fff;
   min-width: 1200px;
 }
-/* line 174, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 header .header_ico {
   color: #16a085;
   font-size: 1.6em;
@@ -174,36 +175,36 @@ header .header_ico {
   margin-right: 7px;
   vertical-align: middle;
 }
-/* line 182, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 header .menuItem {
   margin: 0;
 }
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 header .header_ico:hover, header .header_ico:active {
   color: #fff;
 }
-/* line 191, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 header .logo {
   float: left;
 }
-/* line 195, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 header .chooseCity {
   display: inline-block;
   margin-top: 45px;
   margin-left: 35px;
   position: relative;
 }
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 header .chooseCity div {
   display: inline-block;
 }
-/* line 205, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 header .chooseCity img {
   left: -13px;
   position: absolute;
   top: 4px;
 }
-/* line 211, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 header .chooseCity span {
   bottom: 1px;
   float: left;
@@ -212,14 +213,14 @@ header .chooseCity span {
   width: 15px;
 }
 
-/* line 221, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .selectCity {
   overflow: hidden;
   width: 125px;
   float: left;
   padding-left: 0px;
 }
-/* line 227, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .selectCity select {
   border-radius: 0;
   background: #363636;
@@ -233,24 +234,24 @@ header .chooseCity span {
   color: #fff;
 }
 
-/* line 241, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 menu ul, .headerMenu ul {
   list-style-type: none;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .headerMenu {
   float: right;
   margin-top: 45px;
 }
-/* line 249, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .headerMenu ul {
   display: inline;
   float: right;
   position: absolute;
   right: 0;
 }
-/* line 256, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .headerMenu li {
   cursor: pointer;
   float: left;
@@ -258,46 +259,46 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   padding: 0 1em;
 }
-/* line 264, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .headerMenu li:hover img {
   margin: -17px 5px 0 0;
 }
-/* line 268, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .headerMenu a {
   text-decoration: none;
   color: #fff;
 }
-/* line 273, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .headerMenu a:hover {
   color: #16a085;
 }
-/* line 278, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .headerMenu a:hover span {
   color: #fff;
 }
-/* line 282, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .headerMenu img {
   float: left;
   margin: 2px 5px 0 0;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .menuLine {
   background-color: #16a085;
   height: 50px;
   padding: 0;
 }
-/* line 294, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .menuLine menu {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0;
 }
-/* line 299, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .menuLine menu .leftArrow, .menuLine menu .rightArrow {
   cursor: pointer;
 }
-/* line 303, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .menuLine menu .menuSlider {
   height: 35px;
   margin-top: -12px;
@@ -305,12 +306,12 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   display: none;
 }
-/* line 312, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .menuLine menu ul {
   display: table-row;
   padding-left: 0;
 }
-/* line 317, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .menuLine menu li {
   width: auto;
   /* чтобы поведение было аналогичным ячейки таблицы */
@@ -324,16 +325,16 @@ menu ul, .headerMenu ul {
   vertical-align: bottom;
   /* это нужно для случаев, когда в пункте меню текста больше чем на одну строку */
 }
-/* line 326, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .menuLine menu li:hover, .menuLine menu li:active {
   background-color: #107460;
 }
-/* line 330, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .menuLine menu li:first-child {
   padding: 0;
   /* у первого элемента убираем отступ чтобы четко прилег к левой границе */
 }
-/* line 333, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .menuLine menu a {
   width: 1000px;
   /* вот это заставляет наши псевдоячейки растянуться должным образом */
@@ -346,19 +347,19 @@ menu ul, .headerMenu ul {
   color: #fff;
 }
 
-/* line 346, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 .container {
   padding-left: 12px;
   padding-bottom: 150px;
 }
-/* line 351, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .container .content {
   max-width: 1214px;
   margin: 0px auto;
   padding: 15px 0 15px 0;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -371,24 +372,24 @@ menu ul, .headerMenu ul {
   display: none;
 }
 
-/* line 370, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .modal {
   left: 50%;
   margin-left: -339px;
   position: fixed;
   z-index: 20;
 }
-/* line 376, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .modal .registationBlock, .modal .autorizationBlock {
   display: none;
 }
 
-/* line 382, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 input[type=checkbox].css-checkbox, .registationBlock form [type=checkbox].css-checkbox#city {
   display: none;
 }
 
-/* line 386, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city + label.css-label {
   padding-left: 28px;
   height: 23px;
@@ -401,12 +402,12 @@ input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [typ
   cursor: pointer;
 }
 
-/* line 399, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 input[type=checkbox].css-checkbox:checked + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city:checked + label.css-label {
   background-position: 0 -23px;
 }
 
-/* line 402, ../sass/style.scss */
+/* line 403, ../sass/style.scss */
 label.css-label {
   background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_8730140bb84c8c387fae0d9e5d74315d.png);
   -webkit-touch-callout: none;
@@ -784,259 +785,202 @@ label.css-label {
 }
 
 /* line 1, ../sass/cupon.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@media all and (max-width: 900px) {
+  /* line 10, ../sass/cupon.scss */
+  body {
+    padding-right: 10px;
+  }
+
+  /* line 14, ../sass/cupon.scss */
+  .leftBlocks {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  /* line 18, ../sass/cupon.scss */
+  .rightBlocks {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  /* line 23, ../sass/cupon.scss */
+  .leftBlocks, .rightBlocks {
+    display: block !important;
+  }
+
+  /* line 28, ../sass/cupon.scss */
+  .cuponImgOne img {
+    width: 100% !important;
+  }
+}
+/* line 35, ../sass/cupon.scss */
+.persent {
+  float: left;
+  color: #ca4a4a;
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* line 43, ../sass/cupon.scss */
 .cuponTitleOne {
-  font-size: 1.8em;
+  float: left;
+  clear: right;
+  color: #363636;
+  font-size: 1.4em;
+  line-height: 19px;
   font-weight: bold;
-  margin-bottom: 20px;
-  display: block;
+  margin: 20px 0 20px 0;
 }
 
-/* line 8, ../sass/cupon.scss */
-.cuponImgOne {
-  width: 643px;
-  height: 335px;
-  overflow: hidden;
-  position: relative;
+/* line 53, ../sass/cupon.scss */
+.leftBlocks {
+  width: 58.5%;
   float: left;
-  margin-right: 7px;
-}
-/* line 16, ../sass/cupon.scss */
-.cuponImgOne img {
-  width: 100%;
 }
 
-/* line 22, ../sass/cupon.scss */
-.mapOne {
-  display: block;
-  left: 0;
-  margin: -41px 0 0;
-  position: absolute;
-  width: 100%;
-  height: 290px;
-}
-
-/* line 31, ../sass/cupon.scss */
-.mapOne:after {
-  background-color: #107460;
-  opacity: 0.6;
-  bottom: -7px;
-  content: " ";
-  height: 7px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-}
-
-/* line 42, ../sass/cupon.scss */
-.mapOneLink {
-  display: block;
-  float: left;
-  margin-top: 200px;
-  opacity: 0.7;
-  position: absolute;
-  z-index: 50;
-  padding: 5px;
-  margin-left: 50px;
-}
-/* line 51, ../sass/cupon.scss */
-.mapOneLink a {
-  color: #fff;
-  background-color: #16a085;
-  text-decoration: none;
-}
-
-/* line 58, ../sass/cupon.scss */
-.cuponDescriptionOne {
-  margin-top: 231px;
-  width: 100%;
-  background-color: #1abc9c;
-  color: #fff;
-  padding: 35px 0;
-  font-size: 1.2em;
-  line-height: 1.6em;
-  position: relative;
-}
-
-/* line 69, ../sass/cupon.scss */
-.cuponDescriptionOne:before {
-  background-color: #1abc9c;
-  bottom: 0;
-  content: " ";
-  height: 100%;
-  left: -100%;
-  position: absolute;
-  width: 100%;
-}
-
-/* line 78, ../sass/cupon.scss */
-.cuponDescriptionOne:after {
-  background-color: #1abc9c;
-  bottom: 0;
-  content: " ";
-  height: 100%;
-  right: -100%;
-  position: absolute;
-  width: 100%;
-}
-
-/* line 92, ../sass/cupon.scss */
-.byeCupon h2 {
-  font-size: 1em;
-}
-/* line 96, ../sass/cupon.scss */
-.byeCupon .persent {
-  color: #fff;
-  font-size: 3.8em;
+/* line 57, ../sass/cupon.scss */
+.rightBlocks {
+  width: 40%;
   float: right;
-  font-weight: bold;
-  margin: 7px;
 }
-/* line 104, ../sass/cupon.scss */
-.byeCupon button {
-  width: 100%;
-  height: 66px;
-  background-color: #ca4a4a;
-  border: none;
-  font-size: 1.8em;
-  color: #fff;
+
+/* line 62, ../sass/cupon.scss */
+.leftBlocks, .rightBlocks {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* line 67, ../sass/cupon.scss */
+.cuponDescriptionOne {
+  background: #fff;
+  clear: left;
+  padding: 25px;
+}
+
+/* line 74, ../sass/cupon.scss */
+.cuponContainer {
   position: relative;
+}
+/* line 75, ../sass/cupon.scss */
+.cuponContainer form {
+  margin-top: -5px;
+}
+/* line 79, ../sass/cupon.scss */
+.cuponContainer .cuponImgOne {
+  overflow: hidden;
+  height: 240px;
+}
+/* line 87, ../sass/cupon.scss */
+.cuponContainer button {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border: 0;
+  margin-top: -7px;
   cursor: pointer;
 }
-/* line 114, ../sass/cupon.scss */
-.byeCupon button .ico {
-  margin: 0 10px;
-  color: #873533;
-  vertical-align: middle;
-}
-/* line 121, ../sass/cupon.scss */
-.byeCupon button:hover {
-  background-color: #b64744;
-}
-/* line 125, ../sass/cupon.scss */
-.byeCupon button:hover .ico {
+/* line 95, ../sass/cupon.scss */
+.cuponContainer button div {
+  display: inline-block;
+  height: 70px;
+  width: 50%;
+  color: white;
   font-size: 1.5em;
-  margin: 0 4px;
-  color: #fff;
 }
-/* line 131, ../sass/cupon.scss */
-.byeCupon button:after {
-  background-color: #107460;
-  opacity: 0.6;
-  bottom: -7px;
-  content: " ";
-  height: 7px;
-  left: 0;
+/* line 104, ../sass/cupon.scss */
+.cuponContainer button div:nth-child(1) {
   position: absolute;
-  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #16a085;
+  padding-top: 26px;
 }
-/* line 142, ../sass/cupon.scss */
-.byeCupon ul {
-  padding-left: 30px;
-  padding-top: 30px;
-  position: inherit;
-  z-index: 15;
-}
-/* line 148, ../sass/cupon.scss */
-.byeCupon ul li {
-  list-style: none;
-  margin-bottom: 9px;
-  font-size: 1.3em;
-  color: #fff;
-}
-/* line 154, ../sass/cupon.scss */
-.byeCupon ul li .ico {
-  font-size: 1.8em;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-/* line 163, ../sass/cupon.scss */
-.byeCupon img {
-  bottom: -91px;
-  height: 90px;
+/* line 112, ../sass/cupon.scss */
+.cuponContainer button div:nth-child(2) {
+  padding-top: 21px;
   position: absolute;
   right: 0;
-  z-index: 10;
+  bottom: 0;
+  background: #107460;
 }
-/* line 171, ../sass/cupon.scss */
-.byeCupon .cuponDescriptionSingle:before {
-  border-bottom: 0 solid #1abc9c;
-  border-left: 30px solid #1abc9c;
-  content: "";
-  height: 0;
-  left: 0;
+/* line 120, ../sass/cupon.scss */
+.cuponContainer button .ico {
+  margin-left: 15px;
+  color: #ca4a4a;
+  font-size: 1.7em;
+  vertical-align: middle;
+}
+/* line 128, ../sass/cupon.scss */
+.cuponContainer .cuponInfoOne:before {
   position: absolute;
+  content: ' ';
+  background-color: #ca4a4a;
   top: 0;
-  width: 101px;
-}
-/* line 181, ../sass/cupon.scss */
-.byeCupon .cuponDescriptionSingle:after {
-  border-right: 104px solid rgba(0, 0, 0, 0);
-  border-top: 91px solid #1abc9c;
-  bottom: 51px;
-  content: "";
-  display: inline-block;
-  height: 0;
   left: 0;
-  position: relative;
-  width: 438px;
-}
-/* line 192, ../sass/cupon.scss */
-.byeCupon .cuponDescriptionSingle {
-  background: none repeat scroll 0 0 #1abc9c;
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-radius-topright: 15px;
-  border-top-right-radius: 15px;
-  display: inline-block;
-  height: 230px;
-  margin: 0;
-  padding-bottom: 0;
-  padding-top: 1px;
-  position: relative;
-  width: 542px;
-  z-index: 20;
-}
-
-/* line 208, ../sass/cupon.scss */
-.commentsBlock {
-  margin-top: 15px;
-  margin-right: 50px;
-  float: left;
-  width: 643px;
-  min-height: 400px;
-}
-/* line 215, ../sass/cupon.scss */
-.commentsBlock .comment {
   width: 100%;
-  background-color: #fff;
-  margin: 0 0 15px 0;
+  height: 5px;
 }
-/* line 221, ../sass/cupon.scss */
-.commentsBlock .question {
-  padding: 15px 15px 10px 15px;
+/* line 137, ../sass/cupon.scss */
+.cuponContainer .cuponInfoOne {
+  position: relative;
+  background-color: white;
+  padding: 25px 35px;
 }
-/* line 225, ../sass/cupon.scss */
-.commentsBlock .answer {
-  padding: 10px 15px 15px 15px;
-  color: #16a085;
-}
-
-/* line 232, ../sass/cupon.scss */
-.termsBlock {
-  float: left;
-  width: 489px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-/* line 238, ../sass/cupon.scss */
-.termsBlock li {
-  margin-bottom: 5px;
+/* line 142, ../sass/cupon.scss */
+.cuponContainer .cuponInfoOne ul {
   list-style: none;
 }
-
-/* line 244, ../sass/cupon.scss */
-.commentsBlock span:nth-child(1), .termsBlock span:nth-child(1) {
-  font-size: 1.8em;
+/* line 144, ../sass/cupon.scss */
+.cuponContainer .cuponInfoOne ul li {
+  padding: 7px;
+}
+/* line 147, ../sass/cupon.scss */
+.cuponContainer .cuponInfoOne ul .ico {
+  font-size: 1.7em;
+  vertical-align: middle;
   color: #16a085;
-  margin-bottom: 15px;
-  display: block;
+  margin-right: 5px;
+}
+
+/* line 158, ../sass/cupon.scss */
+.mapOne {
+  height: 330px;
+}
+
+/* line 162, ../sass/cupon.scss */
+.termsBlock:before {
+  position: absolute;
+  content: ' ';
+  background-color: #ca4a4a;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+/* line 171, ../sass/cupon.scss */
+.termsBlock {
+  position: relative;
+  background-color: #16a085;
+  color: white;
+  padding: 25px 40px;
+}
+/* line 174, ../sass/cupon.scss */
+.termsBlock span {
+  font-size: 1.5em;
+}
+/* line 182, ../sass/cupon.scss */
+.termsBlock ul {
+  line-height: 1.5em;
+}
+/* line 185, ../sass/cupon.scss */
+.termsBlock ul li {
+  padding: 5px;
 }

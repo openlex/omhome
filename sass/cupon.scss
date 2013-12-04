@@ -1,250 +1,189 @@
-.cuponTitleOne{
-	font-size:1.8em;
-	font-weight: bold;
-	margin-bottom: 20px;
-	display: block;
-}
-
-.cuponImgOne{
-	width: 643px;
-	height: 335px;
-	overflow: hidden;
-	position: relative;
-	float: left;
-	margin-right: 7px;
-
-		img{
-			width: 100%;
-		}
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box
 }
 
 
-.mapOne{
-	display: block;
-    left: 0;
-    margin: -41px 0 0;
-    position: absolute;
-    width:100%;
-    height:290px;
-}
+@media all and (max-width: 900px) {
 
-.mapOne:after{
-		background-color: $selectGreen;
-		opacity: 0.6;
-	    bottom: -7px;
-	    content: " ";
-	    height: 7px;
-	    left: 0;
-	    position: absolute;
-	    width: 100%;
+	body{
+		padding-right: 10px;
 	}
 
-.mapOneLink{
-	display: block;
-    float: left;
-    margin-top: 200px;
-    opacity: 0.7;
-    position: absolute;
-    z-index: 50;
-    padding: 5px;
-    margin-left: 50px;
-		a{
-			color:#fff;
-			background-color: $green;
-			text-decoration: none;
+	.leftBlocks{
+		width: 100% !important;
+		float: none !important;
+	}
+	.rightBlocks{
+		width: 100% !important;
+		float: none !important;
+	}
+
+	.leftBlocks, .rightBlocks{
+		display: block !important;
+	}
+
+	.cuponImgOne{
+		img{
+		width:100% !important;
 		}
+	}
+
+}
+
+.persent{
+	float: left;
+	color: $red;
+	font-size: 2em;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.cuponTitleOne{
+	float: left;
+	clear: right;
+	color: $grey;
+	font-size: 1.4em;
+	line-height: 19px;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+}
+
+.leftBlocks{
+	width: 58.5%;
+	float: left;
+}
+.rightBlocks{
+	width: 40%;
+	float: right;
+}
+
+.leftBlocks, .rightBlocks{
+	display: inline-block;
+	margin-bottom: 15px;
 }
 
 .cuponDescriptionOne{
-	margin-top: 231px;
-	width:100%;
-	background-color:$lightGreen;
-	color:#fff;
-	padding: 35px 0;
-	font-size: 1.2em;
-	line-height: 1.6em;
+	background: #fff;
+	clear: left;
+	padding: 25px;
+	
+}
+
+.cuponContainer{
+	form{
+		margin-top: -5px;
+	}
 	position: relative;
-}
+		.cuponImgOne{
+				overflow: hidden;
+				height: 240px;
+			
+				img{
+				}
+			}
 
-.cuponDescriptionOne:before{
-	background-color: $lightGreen;
-    bottom: 0;
-    content: " ";
-    height: 100%;
-    left: -100%;
-    position: absolute;
-    width: 100%;
-}
-.cuponDescriptionOne:after{
-	background-color: $lightGreen;
-    bottom: 0;
-    content: " ";
-    height: 100%;
-    right: -100%;
-    position: absolute;
-    width: 100%;
-}
+		button{
+			position: relative;
+			width: 100%;
+			height: 70px;
+			border: 0;
+			margin-top: -7px;
+			cursor: pointer;
 
+			div{
+				display: inline-block;
+				height: 70px;
+				width: 50%;
+				
+				color: white;
+				font-size: 1.5em;
+			}
 
+			div:nth-child(1){
+				position: absolute;
+				left:0;
+				bottom: 0;
+				background:$green;
+				padding-top: 26px;
+			}
 
-.byeCupon{
-
-	h2{
-		font-size: 1em;
-	}
-
-	.persent{
-		color: #fff;
-		font-size: 3.8em;
-		float: right;
-		font-weight: bold;
-		margin: 7px;
-	}
-
-	button{
-		width: 100%;
-		height: 66px;
-		background-color: $red;
-		border: none;
-		font-size: 1.8em;
-		color: #fff;
-		position: relative;
-		cursor: pointer;
-
-		.ico{
-			margin: 0 10px;
-			color: #873533;
-			vertical-align: middle;
-		}
-	}
-
-	button:hover{
-		background-color: #b64744;
-	}
-
-	button:hover .ico{
-		font-size: 1.5em;
-		margin: 0 4px;
-		color: #fff;
-	}
-
-	button:after{
-		background-color: $selectGreen;
-		opacity: 0.6;
-	    bottom: -7px;
-	    content: " ";
-	    height: 7px;
-	    left: 0;
-	    position: absolute;
-	    width: 100%;
-	}
-
-	ul{
-		padding-left: 30px;
-		padding-top: 30px;
-		position: inherit;
-		z-index: 15;
-
-		li{
-			list-style: none;
-			margin-bottom: 9px;
-			font-size: 1.3em;
-			color: #fff;
+			div:nth-child(2){
+				padding-top: 21px;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				background:$selectGreen;
+			}
 
 			.ico{
-				font-size: 1.8em;
+				margin-left: 15px;
+				color: $red;
+				font-size: 1.7em;
 				vertical-align: middle;
-				margin-right: 5px;	
+
 			}
 		}
-	}
+		.cuponInfoOne:before{
+			position: absolute;
+			content: ' ';
+			background-color: $red;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 5px
+		}
+		.cuponInfoOne{
+			position: relative;
+			background-color: white;
+			padding: 25px 35px;
 
+			ul{
+				list-style: none;
+				li{
+					padding: 7px;
+				}
+				.ico{
+					font-size: 1.7em;
+					vertical-align: middle;
+					color: $green;
+					margin-right: 5px;
+				}
+			}
 
-    img {
-	    bottom: -91px;
-	    height: 90px;
-	    position: absolute;
-	    right: 0;
-	    z-index: 10;
-	}
-
-	.cuponDescriptionSingle:before {
-	    border-bottom: 0 solid $lightGreen;
-	    border-left: 30px solid $lightGreen;
-	    content: "";
-	    height: 0;
-	    left: 0;
-	    position: absolute;
-	    top: 0;
-	    width: 101px;
-	}
-	.cuponDescriptionSingle:after {
-	    border-right: 104px solid rgba(0, 0, 0, 0);
-	    border-top: 91px solid $lightGreen;
-	    bottom: 51px;
-	    content: "";
-	    display: inline-block;
-	    height: 0;
-	    left: 0;
-	    position: relative;
-	    width: 438px;
-	}
-	.cuponDescriptionSingle {
-	    background: none repeat scroll 0 0 $lightGreen;
-	    -webkit-border-top-right-radius: 15px;
-	    -moz-border-radius-topright: 15px;
-	    border-top-right-radius: 15px;
-	    display: inline-block;
-	    height: 230px;
-	    margin: 0;
-	    padding-bottom: 0;
-	    padding-top: 1px;
-	    position: relative;
-	    width: 542px;
-	    z-index: 20;
-	}
+		}
 }
 
-.commentsBlock{
-	margin-top: 15px;
-	margin-right: 50px;
-	float: left;
-	width: 643px;
-	min-height: 400px;
-
-	.comment{
-		width: 100%;
-		background-color: #fff;
-		margin: 0 0 15px 0;
-	}
-
-	.question{
-		padding: 15px 15px 10px 15px;
-	}
-
-	.answer{
-		padding: 10px 15px 15px 15px;
-		color: $green;
-	}
-
+.mapOne{
+	height: 330px;
 }
 
+.termsBlock:before{
+			position: absolute;
+			content: ' ';
+			background-color: $red;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 5px
+		}
 .termsBlock{
-	float: left;
-	width: 489px;
-	margin-top: 15px;
-	margin-bottom: 25px;
+	position: relative;
 
-	li{
-		margin-bottom: 5px;
-		list-style: none;
+	span{
+		font-size: 1.5em;
+	}
+
+	background-color: $green;
+	color: white;
+	padding: 25px 40px;
+
+	ul{
+		line-height: 1.5em;
+
+		li{
+			padding: 5px;
+		}
 	}
 }
-
-.commentsBlock span:nth-child(1), .termsBlock span:nth-child(1){
-	font-size: 1.8em;
-	color: $green;
-	margin-bottom: 15px;
-	display: block;
-}
-
