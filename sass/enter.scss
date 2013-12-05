@@ -21,6 +21,11 @@
 }
 
 #forgotPassword{
+
+    .emailWhere{
+        font-size:0.7em;
+    }
+
     @extend #authorization; 
     display:none;
         div{
@@ -72,6 +77,8 @@
     -moz-border-radius-topright: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+
 
         .errors{
             width: 100%;
@@ -133,7 +140,7 @@
                 @extend input;
                 height: 31px;
                 padding-top: 7px;
-                width: 262px;
+                width: 250px;
 
             }
 
@@ -150,7 +157,7 @@
                 height: 23px;
                 margin-left: -1px;
                 margin-top: 2px;
-                width: 285px;
+                width: 315px;
             }
 
             div{

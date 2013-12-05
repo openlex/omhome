@@ -1,14 +1,15 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Главная</title>
-<!--link rel="stylesheet" type="text/css" href="style/style2.css"-->
-<link rel="stylesheet" type="text/css" href="style/style.css">
-<script src="js/jquery-2.0.3.min.js"></script>
-<script src="js/cuponBlock-slider.js"></script>
-<script src="js/menu-slider.js"></script>
-<script src="js/modal.js"></script>
+	<meta charset="utf-8">
+	<title>Главная</title>
+	<!--link rel="stylesheet" type="text/css" href="style/style2.css"-->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/cuponBlock-slider.js"></script>
+	<script src="js/menu-slider.js"></script>
+	<script src="js/modal.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
@@ -18,21 +19,21 @@
 				<div class="logo"><a href="main.html"><img src="img/logo.png"></img></a></div>
 				<div class="chooseCity">
 					<div class="chooseCity_ico"></div>
-						<span class='ico header_ico'></span>
-						<form class="selectCity" action="select1.php" method="post">
+					<span class='ico header_ico'></span>
+					<form class="selectCity" action="select1.php" method="post">
 
-						   <p><select size="1">
-						    <option selected>Выберите город</option>
-						    <option value="Москва">Москва</option>
-						    <option value="Омск">Омск</option>
-						    <option value="Новосибирск">Новосибирск</option>
-						    <option value="Екатеринбург">Екатеринбург</option>
-						   </select></p>
+						<p><select size="1">
+							<option selected>Выберите город</option>
+							<option value="Москва">Москва</option>
+							<option value="Омск">Омск</option>
+							<option value="Новосибирск">Новосибирск</option>
+							<option value="Екатеринбург">Екатеринбург</option>
+						</select></p>
 
-						</form>
+					</form>
 
 						<!--span class="demoSpan1">
-						</span-->
+					</span-->
 
 				</div>
 
@@ -59,28 +60,28 @@
 		<div class="menuLine">
 			<menu>
 				<!--div class='menuSlider'>
-				</div-->
-				<!--span class='leftArrow ico'><</span--> 
-				<ul class='menuUl'>
-					<li><a href="main.html">Все</a></li>
-					<li><a href="#">Женщинам</a></li>
-					<li><a href="#">Красота</a></li>
-					<li><a href="#">Мужчинам</a></li>
-					<li><a href="#">Образование</a></li>
-					<li><a href="#">Отдых и спорт</a></li>
-					<li><a href="#">Рестораны</a></li>
-					<li><a href="#">Для дома</a></li>
-				</ul>
-				<!--span class='rightArrow ico'>></span--> 
-			</menu>
-		</div>
+			</div-->
+			<!--span class='leftArrow ico'><</span--> 
+			<ul class='menuUl'>
+				<li><a href="main.html">Все</a></li>
+				<li><a href="#">Женщинам</a></li>
+				<li><a href="#">Красота</a></li>
+				<li><a href="#">Мужчинам</a></li>
+				<li><a href="#">Образование</a></li>
+				<li><a href="#">Отдых и спорт</a></li>
+				<li><a href="#">Рестораны</a></li>
+				<li><a href="#">Для дома</a></li>
+			</ul>
+			<!--span class='rightArrow ico'>></span--> 
+		</menu>
+	</div>
 
 
-		
+	
 
-		<div class="container clearfix">
+	<div class="container clearfix">
 
-			<div class='modal'>
+		<div class='modal'>
 
 			<div class='registationBlock' id='registration'>
 				<div  class='circle'>
@@ -113,12 +114,12 @@
 					<div>
 						<label for="city">город</label>
 						<select size="1" id='city'>
-						    <option selected>выберите город</option>
-						    <option value="Москва">Москва</option>
-						    <option value="Омск">Омск</option>
-						    <option value="Новосибирск">Новосибирск</option>
-						    <option value="Екатеринбург">Екатеринбург</option>
-					   </select>
+							<option selected>выберите город</option>
+							<option value="Москва">Москва</option>
+							<option value="Омск">Омск</option>
+							<option value="Новосибирск">Новосибирск</option>
+							<option value="Екатеринбург">Екатеринбург</option>
+						</select>
 					</div>	
 
 					<div>
@@ -135,65 +136,67 @@
 						<input id="checkboxG1" class="css-checkbox" type="checkbox" name="checkboxG1">
 						<label class="css-label" for="checkboxG1" id='agreeLabel'>
 							&nbspЯ соглашаюсь с условиями <a href="#">публичной офёрты</a></label>
-						
-					</div>
+							
+						</div>
 
-					<input type="submit" id='submitReg' value="регистрация">
+						<input type="submit" id='submitReg' value="регистрация">
 
-				</form>
-				<img src='img/right-corner.png'>
-			</div>
-
-
-			<div class='registationBlock' id='authorization'>
-				<div  class='circle'>
+					</form>
+					<img src='img/right-corner.png'>
 				</div>
-				<div class='errors'>
-					<span class="ico"></span>
-					<span>- Требуется заполнить поле пароля.<br/>
-						- Поле "Город" обязательно для заполнения.<br/>
-						- Адрес электронной почты asdsadsad некорректен.<br/>
-					</span>
-				</div>
-				<span> Вход на сайт </span>
-				<form>
 
-					<div>
-						<label for="email">электронный адресс</label>
-						<input type='text' id='email'>
+
+				<div class='registationBlock' id='authorization'>
+					<div  class='circle'>
 					</div>
-
-
-					<div>
-						<label for="password">пароль</label>
-						<input type='text' id='password'>
-					</div>	
-
-					<input type="submit" id='submitReg' value="вход">
-					<a id='forgotLink'> Вы забыли пароль? </a>
-
-				</form>
-				<img src='img/right-corner.png'>
-			</div>
-
-			<div class='registationBlock' id='forgotPassword'>
-				<div  class='circle'>
-				</div>
-				<span> Восстановление пароля </span>
-				<form>
-
-					<div>
-						<label for="email">электронный адресс</label>
-						<input type='text' id='email'>
+					<div class='errors'>
+						<span class="ico"></span>
+						<span>- Требуется заполнить поле пароля.<br/>
+							- Поле "Город" обязательно для заполнения.<br/>
+							- Адрес электронной почты asdsadsad некорректен.<br/>
+						</span>
 					</div>
+					<span> Вход на сайт </span>
+					<form>
 
-					<input type="submit" id='submitReg' value="выслать инструкцию">
-					<a id='comeBack'> Вернуться назад </a>
-				</form>
-				<img src='img/right-corner.png'>
+						<div>
+							<label for="email">электронный адресс</label>
+							<input type='text' id='email'>
+
+						</div>
+
+
+						<div>
+							<label for="password">пароль</label>
+							<input type='text' id='password'>
+						</div>	
+
+						<input type="submit" id='submitReg' value="вход">
+						<a id='forgotLink'> Вы забыли пароль? </a>
+
+					</form>
+					<img src='img/right-corner.png'>
+				</div>
+
+				<div class='registationBlock' id='forgotPassword'>
+					<div  class='circle'>
+					</div>
+					<span> Восстановление пароля </span>
+					<form>
+
+						<div>
+							<label for="email">электронный адресс</label>
+							<input type='text' id='email'>
+							<span class='emailWhere'> Сообщение для смены пароля будет отправлено на Вашу электронную почту.</span>
+						</div>
+
+						<input type="submit" id='submitReg' value="выслать инструкцию">
+						<a id='comeBack'> Вернуться назад </a>
+					</form>
+					<img src='img/right-corner.png'>
+				</div>
+
 			</div>
-
-		</div>
 
 			<div class='overlay'>
 			</div>
@@ -206,163 +209,163 @@
 					</form>
 				</div>
 
-			<div class="vk-widjet">
+				<div class="vk-widjet">
+				</div>
+
+
+				<ul class='cuponList'>
+
+					<li class='cupon green short'>
+						<a href='cupon.html'></a>
+						<figure>
+							<div class = 'cuponImg'>
+								<img src="img/pics/1.jpg">	
+								<div class="slideInfo">
+									<span class='ico'></span>
+									<div class="cuponSelled">
+										купили: 15
+									</div>
+
+									<div class="cuponTimer">
+										15:22:44
+									</div>
+								</div>
+
+							</div>
+							<div class="cuponDescription">
+								Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
+							</div>
+							<div class="cuponBlock_price">
+								<div class="percent">-90%</div>
+								<div class="count">от 1250р.</div>
+							</div>	
+						</figure>
+					</li>
+
+
+					<li class='cupon red short'>
+						<a href='#'></a>
+						<figure>
+							<div class = 'cuponImg'>
+								<img src="img/pics/2.jpg">	
+								<div class="slideInfo">
+									<span class='ico'></span>
+									<div class="cuponSelled">
+										купили: 15
+									</div>
+
+									<div class="cuponTimer">
+										15:22:44
+									</div>
+								</div>
+
+							</div>
+							<div class="cuponDescription">
+								Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
+							</div>
+							<div class="cuponBlock_price">
+								<div class="percent">-90%</div>
+								<div class="count">от 1250р.</div>
+							</div>	
+						</figure>
+					</li>
+
+					<li class='cupon green short'>
+						<a href='#'></a>
+						<figure>
+							<div class = 'cuponImg'>
+								<img src="img/pics/3.jpg">	
+								<div class="slideInfo">
+									<span class='ico'></span>
+									<div class="cuponSelled">
+										купили: 15
+									</div>
+
+									<div class="cuponTimer">
+										15:22:44
+									</div>
+								</div>
+
+							</div>
+							<div class="cuponDescription">
+								Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
+							</div>
+							<div class="cuponBlock_price">
+								<div class="percent">-90%</div>
+								<div class="count">от 1250р.</div>
+							</div>	
+						</figure>
+					</li>
+
+					<li class='cupon red short'>
+						<a href='#'></a>
+						<figure>
+							<div class = 'cuponImg'>
+								<img src="img/pics/1.jpg">	
+								<div class="slideInfo">
+									<span class='ico'></span>
+									<div class="cuponSelled">
+										купили: 15
+									</div>
+
+									<div class="cuponTimer">
+										15:22:44
+									</div>
+								</div>
+
+							</div>
+							<div class="cuponDescription">
+								Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
+							</div>
+							<div class="cuponBlock_price">
+								<div class="percent">-90%</div>
+								<div class="count">от 1250р.</div>
+							</div>	
+						</figure>
+					</li>
+
+
+					<li class='cupon green long'>
+						<a href='#'></a>
+						<figure>
+							<div class = 'cuponImg'>
+								<img src="img/pics/4.jpg">	
+								<div class="slideInfo">
+									<span class='ico'></span>
+									<div class="cuponSelled">
+										купили: 15
+									</div>
+
+									<div class="cuponTimer">
+										15:22:44
+									</div>
+								</div>
+
+							</div>
+							<div class="cuponDescription">
+								Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
+							</div>
+							<div class="cuponBlock_price">
+								<div class="percent">-90%</div>
+								<div class="count">от 1250р.</div>
+							</div>	
+						</figure>
+					</li>
+					
+				</ul>
 			</div>
 
+			<div class="push">
+			</div>
 
-			<ul class='cuponList'>
-
-				<li class='cupon green short'>
-					<a href='cupon.html'></a>
-					<figure>
-						<div class = 'cuponImg'>
-							<img src="img/pics/1.jpg">	
-							<div class="slideInfo">
-								<span class='ico'></span>
-								<div class="cuponSelled">
-									купили: 15
-								</div>
-
-								<div class="cuponTimer">
-									15:22:44
-								</div>
-							</div>
-
-						</div>
-						<div class="cuponDescription">
-						Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
-						</div>
-						<div class="cuponBlock_price">
-							<div class="percent">-90%</div>
-							<div class="count">от 1250р.</div>
-						</div>	
-					</figure>
-				</li>
-
-
-				<li class='cupon red short'>
-					<a href='#'></a>
-					<figure>
-						<div class = 'cuponImg'>
-							<img src="img/pics/2.jpg">	
-							<div class="slideInfo">
-								<span class='ico'></span>
-								<div class="cuponSelled">
-									купили: 15
-								</div>
-
-								<div class="cuponTimer">
-									15:22:44
-								</div>
-							</div>
-
-						</div>
-						<div class="cuponDescription">
-						Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
-						</div>
-						<div class="cuponBlock_price">
-							<div class="percent">-90%</div>
-							<div class="count">от 1250р.</div>
-						</div>	
-					</figure>
-				</li>
-
-				<li class='cupon green short'>
-					<a href='#'></a>
-					<figure>
-						<div class = 'cuponImg'>
-							<img src="img/pics/3.jpg">	
-							<div class="slideInfo">
-								<span class='ico'></span>
-								<div class="cuponSelled">
-									купили: 15
-								</div>
-
-								<div class="cuponTimer">
-									15:22:44
-								</div>
-							</div>
-
-						</div>
-						<div class="cuponDescription">
-						Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
-						</div>
-						<div class="cuponBlock_price">
-							<div class="percent">-90%</div>
-							<div class="count">от 1250р.</div>
-						</div>	
-					</figure>
-				</li>
-
-				<li class='cupon red short'>
-					<a href='#'></a>
-					<figure>
-						<div class = 'cuponImg'>
-							<img src="img/pics/1.jpg">	
-							<div class="slideInfo">
-								<span class='ico'></span>
-								<div class="cuponSelled">
-									купили: 15
-								</div>
-
-								<div class="cuponTimer">
-									15:22:44
-								</div>
-							</div>
-
-						</div>
-						<div class="cuponDescription">
-						Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
-						</div>
-						<div class="cuponBlock_price">
-							<div class="percent">-90%</div>
-							<div class="count">от 1250р.</div>
-						</div>	
-					</figure>
-				</li>
-
-
-				<li class='cupon green long'>
-					<a href='#'></a>
-					<figure>
-						<div class = 'cuponImg'>
-							<img src="img/pics/4.jpg">	
-							<div class="slideInfo">
-								<span class='ico'></span>
-								<div class="cuponSelled">
-									купили: 15
-								</div>
-
-								<div class="cuponTimer">
-									15:22:44
-								</div>
-							</div>
-
-						</div>
-						<div class="cuponDescription">
-						Поймай кадр! Курсы обучения фотомастерству в фотостудии «фото-фотооо». 
-						</div>
-						<div class="cuponBlock_price">
-							<div class="percent">-90%</div>
-							<div class="count">от 1250р.</div>
-						</div>	
-					</figure>
-				</li>
-			
-			</ul>
 		</div>
 
-		<<div class="push">
-			</div>
+	</div>	
+</div>
 
-			</div>
+<footer>
 
-		</div>	
-	</div>
-
-	<footer>
-
-	</footer>
+</footer>
 
 </body>
 </html>

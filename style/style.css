@@ -7,38 +7,38 @@
 }
 
 @media all and (max-width: 1218px) {
-  /* line 31, ../sass/style.scss */
+  /* line 35, ../sass/style.scss */
   .menuLine {
     min-width: none;
   }
 
-  /* line 35, ../sass/style.scss */
+  /* line 39, ../sass/style.scss */
   .headerContent {
     position: static !important;
   }
-  /* line 38, ../sass/style.scss */
+  /* line 42, ../sass/style.scss */
   .headerContent .logo img {
     margin-left: 15px;
   }
 }
 @media all and (max-width: 900px) {
-  /* line 47, ../sass/style.scss */
+  /* line 51, ../sass/style.scss */
   .headerContent .logo img {
     margin: 30px 0 0 15px;
     width: 100px;
   }
 }
 @media all and (max-width: 748px) {
-  /* line 57, ../sass/style.scss */
+  /* line 67, ../sass/style.scss */
   .headerContent .chooseCity {
     margin-top: 24px;
   }
-  /* line 61, ../sass/style.scss */
+  /* line 71, ../sass/style.scss */
   .headerContent .headerMenu {
     float: none;
     margin-top: 5px;
   }
-  /* line 65, ../sass/style.scss */
+  /* line 75, ../sass/style.scss */
   .headerContent .headerMenu ul {
     display: inline;
     float: none;
@@ -46,24 +46,30 @@
     position: none;
     padding: 0;
   }
-  /* line 74, ../sass/style.scss */
+  /* line 84, ../sass/style.scss */
   .headerContent .logo img {
     margin: 10px 0 0 15px;
     width: 100px;
   }
 }
 @media all and (max-width: 508px) {
-  /* line 82, ../sass/style.scss */
+  /* line 100, ../sass/style.scss */
   header {
     height: 156px !important;
   }
 
-  /* line 85, ../sass/style.scss */
+  /* line 103, ../sass/style.scss */
   .headerMenu li {
     float: none !important;
   }
 }
-/* line 90, ../sass/style.scss */
+@media all and (max-width: 508px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 95, ../sass/style.scss */
+  .chooseCity {
+    margin-top: 10px;
+  }
+}
+/* line 108, ../sass/style.scss */
 [class^="ico"], [class*=" ico"] {
   font-family: 'icomoon';
   speak: none;
@@ -76,13 +82,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 102, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 107, ../sass/style.scss */
+@media all and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 126, ../sass/style.scss */
+  .chooseCity {
+    margin-top: 10px;
+  }
+}
+/* line 131, ../sass/style.scss */
 html, body {
   font-family: 'Verdana',sans-serif;
   font-size: 0.883em;
@@ -90,20 +102,20 @@ html, body {
   color: #363636;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 html, body, .wrapper {
   height: 100%;
   margin: 0px;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 body > .wrapper {
   height: auto;
   min-height: 100%;
   overflow-x: hidden;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 footer {
   position: relative;
   margin-top: -150px;
@@ -113,7 +125,7 @@ footer {
   background-color: #363636;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -122,44 +134,44 @@ footer {
   visibility: hidden;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .clearfix {
   display: inline-block;
 }
 
 /* Hides from IE-mac \*/
-/* line 145, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 * html .clearfix {
   height: 1%;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .clearfix {
   display: block;
 }
 
 /* End hide from IE-mac */
-/* line 154, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .wrapper {
   height: auto;
   min-height: 100%;
 }
 
 @-moz-document url-prefix() {
-  /* line 157, ../sass/style.scss */
+  /* line 181, ../sass/style.scss */
   html, body {
     overflow-x: none;
   }
 }
 
-/* line 162, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .headerContent {
   margin: 0 auto;
   width: 1200px;
   position: relative;
 }
 
-/* line 168, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 header {
   background-color: #363636;
   height: 100px;
@@ -167,7 +179,7 @@ header {
   color: #fff;
   min-width: 1200px;
 }
-/* line 175, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 header .header_ico {
   color: #16a085;
   font-size: 1.6em;
@@ -175,36 +187,36 @@ header .header_ico {
   margin-right: 7px;
   vertical-align: middle;
 }
-/* line 183, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 header .menuItem {
   margin: 0;
 }
-/* line 187, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 header .header_ico:hover, header .header_ico:active {
   color: #fff;
 }
-/* line 192, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 header .logo {
   float: left;
 }
-/* line 196, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 header .chooseCity {
   display: inline-block;
   margin-top: 45px;
   margin-left: 35px;
   position: relative;
 }
-/* line 202, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 header .chooseCity div {
   display: inline-block;
 }
-/* line 206, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 header .chooseCity img {
   left: -13px;
   position: absolute;
   top: 4px;
 }
-/* line 212, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 header .chooseCity span {
   bottom: 1px;
   float: left;
@@ -213,14 +225,14 @@ header .chooseCity span {
   width: 15px;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .selectCity {
   overflow: hidden;
   width: 125px;
   float: left;
   padding-left: 0px;
 }
-/* line 228, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .selectCity select {
   border-radius: 0;
   background: #363636;
@@ -234,24 +246,24 @@ header .chooseCity span {
   color: #fff;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 menu ul, .headerMenu ul {
   list-style-type: none;
 }
 
-/* line 246, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .headerMenu {
   float: right;
   margin-top: 45px;
 }
-/* line 250, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .headerMenu ul {
   display: inline;
   float: right;
   position: absolute;
   right: 0;
 }
-/* line 257, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .headerMenu li {
   cursor: pointer;
   float: left;
@@ -259,46 +271,46 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   padding: 0 1em;
 }
-/* line 265, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .headerMenu li:hover img {
   margin: -17px 5px 0 0;
 }
-/* line 269, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .headerMenu a {
   text-decoration: none;
   color: #fff;
 }
-/* line 274, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .headerMenu a:hover {
   color: #16a085;
 }
-/* line 279, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .headerMenu a:hover span {
   color: #fff;
 }
-/* line 283, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .headerMenu img {
   float: left;
   margin: 2px 5px 0 0;
 }
 
-/* line 290, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .menuLine {
   background-color: #16a085;
   height: 50px;
   padding: 0;
 }
-/* line 295, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .menuLine menu {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0;
 }
-/* line 300, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .menuLine menu .leftArrow, .menuLine menu .rightArrow {
   cursor: pointer;
 }
-/* line 304, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 .menuLine menu .menuSlider {
   height: 35px;
   margin-top: -12px;
@@ -306,12 +318,12 @@ menu ul, .headerMenu ul {
   overflow: hidden;
   display: none;
 }
-/* line 313, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .menuLine menu ul {
   display: table-row;
   padding-left: 0;
 }
-/* line 318, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .menuLine menu li {
   width: auto;
   /* чтобы поведение было аналогичным ячейки таблицы */
@@ -325,16 +337,16 @@ menu ul, .headerMenu ul {
   vertical-align: bottom;
   /* это нужно для случаев, когда в пункте меню текста больше чем на одну строку */
 }
-/* line 327, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 .menuLine menu li:hover, .menuLine menu li:active {
   background-color: #107460;
 }
-/* line 331, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 .menuLine menu li:first-child {
   padding: 0;
   /* у первого элемента убираем отступ чтобы четко прилег к левой границе */
 }
-/* line 334, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .menuLine menu a {
   width: 1000px;
   /* вот это заставляет наши псевдоячейки растянуться должным образом */
@@ -347,19 +359,19 @@ menu ul, .headerMenu ul {
   color: #fff;
 }
 
-/* line 347, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .container {
   padding-left: 12px;
   padding-bottom: 150px;
 }
-/* line 352, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .container .content {
   max-width: 1214px;
   margin: 0px auto;
   padding: 15px 0 15px 0;
 }
 
-/* line 359, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -372,24 +384,24 @@ menu ul, .headerMenu ul {
   display: none;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 395, ../sass/style.scss */
 .modal {
   left: 50%;
   margin-left: -339px;
   position: fixed;
   z-index: 20;
 }
-/* line 377, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .modal .registationBlock, .modal .autorizationBlock {
   display: none;
 }
 
-/* line 383, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 input[type=checkbox].css-checkbox, .registationBlock form [type=checkbox].css-checkbox#city {
   display: none;
 }
 
-/* line 387, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city + label.css-label {
   padding-left: 28px;
   height: 23px;
@@ -402,12 +414,12 @@ input[type=checkbox].css-checkbox + label.css-label, .registationBlock form [typ
   cursor: pointer;
 }
 
-/* line 400, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 input[type=checkbox].css-checkbox:checked + label.css-label, .registationBlock form [type=checkbox].css-checkbox#city:checked + label.css-label {
   background-position: 0 -23px;
 }
 
-/* line 403, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 label.css-label {
   background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_8730140bb84c8c387fae0d9e5d74315d.png);
   -webkit-touch-callout: none;
@@ -441,7 +453,7 @@ label.css-label {
 }
 /* line 21, ../sass/main-content.scss */
 .green .slideInfo {
-  background-color: rgba(8, 157, 134, 0);
+  background-color: rgba(22, 160, 133, 0);
 }
 
 /* line 25, ../sass/main-content.scss */
@@ -598,17 +610,21 @@ label.css-label {
 #forgotPassword {
   display: none;
 }
-/* line 26, ../sass/enter.scss */
+/* line 25, ../sass/enter.scss */
+#forgotPassword .emailWhere {
+  font-size: 0.7em;
+}
+/* line 31, ../sass/enter.scss */
 #forgotPassword div {
   margin-bottom: 13px;
 }
 
-/* line 32, ../sass/enter.scss */
+/* line 37, ../sass/enter.scss */
 #authorization, #forgotPassword {
   width: 420px;
   padding-bottom: 70px;
 }
-/* line 36, ../sass/enter.scss */
+/* line 41, ../sass/enter.scss */
 #authorization a, #forgotPassword a {
   bottom: -23px;
   color: #FFFFFF;
@@ -619,24 +635,24 @@ label.css-label {
   z-index: 25;
 }
 
-/* line 47, ../sass/enter.scss */
+/* line 52, ../sass/enter.scss */
 #authorization form div, #forgotPassword form div {
   display: block;
   margin-left: 74px;
 }
 
-/* line 52, ../sass/enter.scss */
+/* line 57, ../sass/enter.scss */
 #authorization:after, #forgotPassword:after {
   width: 310px;
   width: 316px;
 }
 
-/* line 57, ../sass/enter.scss */
+/* line 62, ../sass/enter.scss */
 #authorization form #submitReg, #forgotPassword form #submitReg {
   bottom: 3px;
 }
 
-/* line 61, ../sass/enter.scss */
+/* line 66, ../sass/enter.scss */
 .registationBlock {
   background: none repeat scroll 0 0 #16A085;
   margin: 25px auto 0;
@@ -652,14 +668,14 @@ label.css-label {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-/* line 76, ../sass/enter.scss */
+/* line 83, ../sass/enter.scss */
 .registationBlock .errors {
   width: 100%;
   background-color: #ca4a4a;
   padding: 20px 0;
   margin-bottom: 15px;
 }
-/* line 82, ../sass/enter.scss */
+/* line 89, ../sass/enter.scss */
 .registationBlock .errors span:nth-child(1) {
   color: #943A38;
   float: left;
@@ -668,20 +684,20 @@ label.css-label {
   margin: 0 0 0 74px;
   width: 9%;
 }
-/* line 91, ../sass/enter.scss */
+/* line 98, ../sass/enter.scss */
 .registationBlock .errors span {
   display: inline-block;
   font-size: 1em;
   margin: 0 -1px;
   width: 63%;
 }
-/* line 99, ../sass/enter.scss */
+/* line 106, ../sass/enter.scss */
 .registationBlock span {
   margin: 0 0 0 72px;
   color: #fff;
   font-size: 1.7em;
 }
-/* line 105, ../sass/enter.scss */
+/* line 112, ../sass/enter.scss */
 .registationBlock .circle {
   height: 30px;
   width: 30px;
@@ -695,32 +711,32 @@ label.css-label {
   position: relative;
   margin: 20px auto 20px;
 }
-/* line 115, ../sass/enter.scss */
+/* line 122, ../sass/enter.scss */
 .registationBlock form {
   width: 550px;
   margin: 15px auto 0;
 }
-/* line 119, ../sass/enter.scss */
+/* line 126, ../sass/enter.scss */
 .registationBlock form label {
   display: block;
   width: 240px;
   margin-bottom: 5px;
   color: #fff;
 }
-/* line 125, ../sass/enter.scss */
+/* line 132, ../sass/enter.scss */
 .registationBlock form input, .registationBlock form #city {
   height: 25px;
   width: 250px;
   border: none;
   padding: 3px 7px;
 }
-/* line 132, ../sass/enter.scss */
+/* line 139, ../sass/enter.scss */
 .registationBlock form #city {
   height: 31px;
   padding-top: 7px;
-  width: 262px;
+  width: 250px;
 }
-/* line 140, ../sass/enter.scss */
+/* line 147, ../sass/enter.scss */
 .registationBlock form #agree {
   width: 14px;
   height: 14px;
@@ -728,29 +744,29 @@ label.css-label {
   float: left;
   margin-top: 15px;
 }
-/* line 148, ../sass/enter.scss */
+/* line 155, ../sass/enter.scss */
 .registationBlock form #agreeLabel {
   font-size: 0.9em;
   height: 23px;
   margin-left: -1px;
   margin-top: 2px;
-  width: 285px;
+  width: 315px;
 }
-/* line 156, ../sass/enter.scss */
+/* line 163, ../sass/enter.scss */
 .registationBlock form div {
   width: 250px;
   display: inline-block;
 }
-/* line 161, ../sass/enter.scss */
+/* line 168, ../sass/enter.scss */
 .registationBlock form div:nth-child(odd) {
   margin: 0 39px 17px 0;
 }
-/* line 165, ../sass/enter.scss */
+/* line 172, ../sass/enter.scss */
 .registationBlock form a {
   color: #fff;
   text-decoration: underline;
 }
-/* line 170, ../sass/enter.scss */
+/* line 177, ../sass/enter.scss */
 .registationBlock form #submitReg {
   background-color: #107460;
   border: medium none;
@@ -764,7 +780,7 @@ label.css-label {
   z-index: 65;
   border-top: solid #ca4a4a 5px;
 }
-/* line 184, ../sass/enter.scss */
+/* line 191, ../sass/enter.scss */
 .registationBlock form #submitReg:hover {
   background-color: #ca4a4a;
   border: medium none;
@@ -775,7 +791,7 @@ label.css-label {
   z-index: 15;
 }
 
-/* line 199, ../sass/enter.scss */
+/* line 206, ../sass/enter.scss */
 .registationBlock > img {
   bottom: -91px;
   height: 90px;

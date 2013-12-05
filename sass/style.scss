@@ -7,6 +7,8 @@ $selectGreen: #107460;
 $grey: #363636;
 
 
+
+
 @mixin border-radius($r1) {
   -webkit-border-radius: $r1;
      -moz-border-radius: $r1;
@@ -14,6 +16,8 @@ $grey: #363636;
        -o-border-radius: $r1; 
           border-radius: $r1;
 }
+
+
 
 @font-face {
 	font-family: 'icomoon';
@@ -52,8 +56,14 @@ $grey: #363636;
 }
 
 @media all and (max-width: 748px) {
-	.headerContent{
 
+
+		.headerContent{
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+		    .chooseCity {
+				margin-top: 10px !important;
+	    	}
+		}
 		.chooseCity {
     		margin-top: 24px;
     	}
@@ -79,6 +89,14 @@ $grey: #363636;
 }
 
 @media all and (max-width: 508px) {
+	
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  .chooseCity{
+  	margin-top: 10px;
+  }
+}
+
 	header{
 		height:156px !important;
 	}
@@ -102,6 +120,12 @@ $grey: #363636;
 * {
 	margin: 0;
 	padding:0;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  .chooseCity{
+  	margin-top: 10px;
+  }
 }
 
 html, body {
